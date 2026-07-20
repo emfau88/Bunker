@@ -1,0 +1,632 @@
+{
+  "tileSize": 64,
+  "columns": 8,
+  "rows": 5,
+  "image": "bunker_terrain_64.png",
+  "tiles": [
+    {
+      "index": 0,
+      "name": "grass_plain",
+      "category": "surface",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          20,
+          20,
+          127,
+          127
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "grass_white_flowers",
+      "category": "surface",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          145,
+          20,
+          252,
+          127
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "grass_yellow_flowers",
+      "category": "surface",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          269,
+          20,
+          376,
+          127
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "name": "grass_pink_flowers",
+      "category": "surface",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          394,
+          20,
+          502,
+          127
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "name": "grass_blue_flowers",
+      "category": "surface",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          518,
+          20,
+          622,
+          127
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "name": "grass_cliff_straight",
+      "category": "surface_edge",
+      "walkable": false,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          638,
+          20,
+          744,
+          128
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "name": "grass_cliff_corner",
+      "category": "surface_edge",
+      "walkable": false,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          760,
+          20,
+          862,
+          128
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "grass_hole_small",
+      "category": "surface_hole",
+      "walkable": false,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          872,
+          20,
+          1007,
+          128
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "name": "grass_hole_large",
+      "category": "surface_hole",
+      "walkable": false,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          1025,
+          20,
+          1144,
+          128
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "name": "dirt_plain",
+      "category": "surface",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          20,
+          142,
+          127,
+          247
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "name": "dirt_pebbles",
+      "category": "surface",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          145,
+          142,
+          252,
+          247
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "name": "dirt_rocks",
+      "category": "surface",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          269,
+          142,
+          376,
+          247
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "name": "dirt_path_cross",
+      "category": "path",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          394,
+          142,
+          502,
+          247
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "name": "dirt_path_t",
+      "category": "path",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          518,
+          142,
+          622,
+          247
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "name": "dirt_path_corner",
+      "category": "path",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          638,
+          142,
+          744,
+          247
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "name": "dirt_path_vertical",
+      "category": "path",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          760,
+          142,
+          862,
+          247
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "name": "cliff_01",
+      "category": "cliff",
+      "walkable": false,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          20,
+          264,
+          127,
+          372
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "name": "cliff_02",
+      "category": "cliff",
+      "walkable": false,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          145,
+          264,
+          252,
+          372
+        ]
+      }
+    },
+    {
+      "index": 18,
+      "name": "cliff_03",
+      "category": "cliff",
+      "walkable": false,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          269,
+          264,
+          376,
+          372
+        ]
+      }
+    },
+    {
+      "index": 19,
+      "name": "cliff_04",
+      "category": "cliff",
+      "walkable": false,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          394,
+          264,
+          502,
+          372
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "name": "cliff_05",
+      "category": "cliff",
+      "walkable": false,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          518,
+          264,
+          622,
+          372
+        ]
+      }
+    },
+    {
+      "index": 21,
+      "name": "cliff_corner",
+      "category": "cliff",
+      "walkable": false,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          638,
+          264,
+          744,
+          372
+        ]
+      }
+    },
+    {
+      "index": 22,
+      "name": "cliff_cave",
+      "category": "cliff",
+      "walkable": false,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          760,
+          264,
+          862,
+          372
+        ]
+      }
+    },
+    {
+      "index": 23,
+      "name": "cave_floor_01",
+      "category": "underground_floor",
+      "walkable": true,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          20,
+          387,
+          127,
+          494
+        ]
+      }
+    },
+    {
+      "index": 24,
+      "name": "cave_floor_02",
+      "category": "underground_floor",
+      "walkable": true,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          145,
+          387,
+          252,
+          494
+        ]
+      }
+    },
+    {
+      "index": 25,
+      "name": "cave_floor_03",
+      "category": "underground_floor",
+      "walkable": true,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          269,
+          387,
+          376,
+          494
+        ]
+      }
+    },
+    {
+      "index": 26,
+      "name": "rock_wall_01",
+      "category": "underground_wall",
+      "walkable": false,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          394,
+          387,
+          502,
+          494
+        ]
+      }
+    },
+    {
+      "index": 27,
+      "name": "rock_wall_02",
+      "category": "underground_wall",
+      "walkable": false,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          518,
+          387,
+          622,
+          494
+        ]
+      }
+    },
+    {
+      "index": 28,
+      "name": "rock_wall_corner",
+      "category": "underground_wall",
+      "walkable": false,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          638,
+          387,
+          744,
+          494
+        ]
+      }
+    },
+    {
+      "index": 29,
+      "name": "rock_tunnel",
+      "category": "underground_wall",
+      "walkable": false,
+      "diggable": true,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          760,
+          387,
+          862,
+          494
+        ]
+      }
+    },
+    {
+      "index": 30,
+      "name": "concrete_clean",
+      "category": "bunker_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          20,
+          508,
+          127,
+          618
+        ]
+      }
+    },
+    {
+      "index": 31,
+      "name": "concrete_cracked",
+      "category": "bunker_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          145,
+          508,
+          252,
+          618
+        ]
+      }
+    },
+    {
+      "index": 32,
+      "name": "concrete_grate",
+      "category": "bunker_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          269,
+          508,
+          376,
+          618
+        ]
+      }
+    },
+    {
+      "index": 33,
+      "name": "concrete_hazard_right",
+      "category": "bunker_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          394,
+          508,
+          502,
+          618
+        ]
+      }
+    },
+    {
+      "index": 34,
+      "name": "concrete_hazard_bottom",
+      "category": "bunker_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          518,
+          508,
+          622,
+          618
+        ]
+      }
+    },
+    {
+      "index": 35,
+      "name": "pipe_orange_corner",
+      "category": "utility_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          638,
+          508,
+          744,
+          618
+        ]
+      }
+    },
+    {
+      "index": 36,
+      "name": "pipe_orange_t",
+      "category": "utility_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          760,
+          508,
+          862,
+          618
+        ]
+      }
+    },
+    {
+      "index": 37,
+      "name": "pipe_blue_t",
+      "category": "utility_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          872,
+          508,
+          954,
+          618
+        ]
+      }
+    },
+    {
+      "index": 38,
+      "name": "pipe_blue_corner",
+      "category": "utility_floor",
+      "walkable": true,
+      "diggable": false,
+      "source": {
+        "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+        "box": [
+          972,
+          508,
+          1055,
+          618
+        ]
+      }
+    }
+  ]
+}

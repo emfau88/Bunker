@@ -1,0 +1,5092 @@
+{
+  "frames": {
+    "wall_straight": {
+      "frame": {
+        "x": 4,
+        "y": 4,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_corner_in": {
+      "frame": {
+        "x": 136,
+        "y": 4,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_t": {
+      "frame": {
+        "x": 268,
+        "y": 4,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_corner_out": {
+      "frame": {
+        "x": 400,
+        "y": 4,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_door_frame_wide": {
+      "frame": {
+        "x": 532,
+        "y": 4,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_door_frame": {
+      "frame": {
+        "x": 664,
+        "y": 4,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "pillar_square": {
+      "frame": {
+        "x": 796,
+        "y": 4,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "pillar_round": {
+      "frame": {
+        "x": 864,
+        "y": 4,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "shaft_square": {
+      "frame": {
+        "x": 4,
+        "y": 136,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "shaft_stairs": {
+      "frame": {
+        "x": 136,
+        "y": 136,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "door_green": {
+      "frame": {
+        "x": 268,
+        "y": 136,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "door_blue": {
+      "frame": {
+        "x": 400,
+        "y": 136,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "door_orange": {
+      "frame": {
+        "x": 532,
+        "y": 136,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "door_airlock": {
+      "frame": {
+        "x": 664,
+        "y": 136,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "door_double": {
+      "frame": {
+        "x": 796,
+        "y": 136,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "hatch_round": {
+      "frame": {
+        "x": 4,
+        "y": 268,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "ladder_hatch": {
+      "frame": {
+        "x": 136,
+        "y": 268,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "bulkhead": {
+      "frame": {
+        "x": 268,
+        "y": 268,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "security_gate": {
+      "frame": {
+        "x": 400,
+        "y": 268,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "fence_short": {
+      "frame": {
+        "x": 596,
+        "y": 268,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "fence_medium": {
+      "frame": {
+        "x": 728,
+        "y": 268,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "fence_tall": {
+      "frame": {
+        "x": 860,
+        "y": 268,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "lamp_post": {
+      "frame": {
+        "x": 4,
+        "y": 400,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_lamp": {
+      "frame": {
+        "x": 72,
+        "y": 400,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "ceiling_lamp": {
+      "frame": {
+        "x": 140,
+        "y": 400,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "bulb_lamp": {
+      "frame": {
+        "x": 208,
+        "y": 400,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "cage_lamp": {
+      "frame": {
+        "x": 276,
+        "y": 400,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "surface_shed": {
+      "frame": {
+        "x": 344,
+        "y": 400,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "solar_panel": {
+      "frame": {
+        "x": 476,
+        "y": 400,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_tower": {
+      "frame": {
+        "x": 608,
+        "y": 400,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "antenna": {
+      "frame": {
+        "x": 740,
+        "y": 400,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wood_sign": {
+      "frame": {
+        "x": 872,
+        "y": 400,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wood_crate": {
+      "frame": {
+        "x": 4,
+        "y": 532,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "barrel": {
+      "frame": {
+        "x": 136,
+        "y": 532,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "toolbox": {
+      "frame": {
+        "x": 204,
+        "y": 532,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "blueprint_table": {
+      "frame": {
+        "x": 336,
+        "y": 532,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "tool_bench": {
+      "frame": {
+        "x": 532,
+        "y": 532,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "soil_empty": {
+      "frame": {
+        "x": 728,
+        "y": 532,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "soil_seed": {
+      "frame": {
+        "x": 796,
+        "y": 532,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "soil_sprout": {
+      "frame": {
+        "x": 864,
+        "y": 532,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "soil_small": {
+      "frame": {
+        "x": 932,
+        "y": 532,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "soil_medium": {
+      "frame": {
+        "x": 4,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "soil_flower": {
+      "frame": {
+        "x": 72,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "soil_fruit_01": {
+      "frame": {
+        "x": 140,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "soil_fruit_02": {
+      "frame": {
+        "x": 208,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_empty": {
+      "frame": {
+        "x": 276,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_seed": {
+      "frame": {
+        "x": 344,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_sprout": {
+      "frame": {
+        "x": 412,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_small": {
+      "frame": {
+        "x": 480,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_medium": {
+      "frame": {
+        "x": 548,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_large": {
+      "frame": {
+        "x": 616,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_fruit_01": {
+      "frame": {
+        "x": 684,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_fruit_02": {
+      "frame": {
+        "x": 752,
+        "y": 664,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_tank_small": {
+      "frame": {
+        "x": 820,
+        "y": 664,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_filter_double": {
+      "frame": {
+        "x": 888,
+        "y": 664,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_filter_tall": {
+      "frame": {
+        "x": 4,
+        "y": 796,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "water_tank_large": {
+      "frame": {
+        "x": 136,
+        "y": 796,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "recycler": {
+      "frame": {
+        "x": 268,
+        "y": 796,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "furnace": {
+      "frame": {
+        "x": 400,
+        "y": 796,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "generator": {
+      "frame": {
+        "x": 532,
+        "y": 796,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "control_terminal": {
+      "frame": {
+        "x": 664,
+        "y": 796,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "control_monitor": {
+      "frame": {
+        "x": 796,
+        "y": 796,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_straight_01": {
+      "frame": {
+        "x": 4,
+        "y": 928,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_straight_02": {
+      "frame": {
+        "x": 136,
+        "y": 928,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_curve_left": {
+      "frame": {
+        "x": 268,
+        "y": 928,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_curve_right": {
+      "frame": {
+        "x": 400,
+        "y": 928,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_t_left": {
+      "frame": {
+        "x": 532,
+        "y": 928,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_t_right": {
+      "frame": {
+        "x": 664,
+        "y": 928,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_cross": {
+      "frame": {
+        "x": 796,
+        "y": 928,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_side": {
+      "frame": {
+        "x": 928,
+        "y": 928,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_end": {
+      "frame": {
+        "x": 4,
+        "y": 1060,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_powered": {
+      "frame": {
+        "x": 136,
+        "y": 1060,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "conveyor_loader": {
+      "frame": {
+        "x": 268,
+        "y": 1060,
+        "w": 192,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "shelf_empty": {
+      "frame": {
+        "x": 464,
+        "y": 1060,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "shelf_supplies": {
+      "frame": {
+        "x": 596,
+        "y": 1060,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "shelf_tools": {
+      "frame": {
+        "x": 728,
+        "y": 1060,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "scrap_station": {
+      "frame": {
+        "x": 860,
+        "y": 1060,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "scrap_pile": {
+      "frame": {
+        "x": 4,
+        "y": 1192,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "ore_bin": {
+      "frame": {
+        "x": 136,
+        "y": 1192,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "workbench_precision": {
+      "frame": {
+        "x": 268,
+        "y": 1192,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "workbench_heavy": {
+      "frame": {
+        "x": 464,
+        "y": 1192,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "lockers": {
+      "frame": {
+        "x": 660,
+        "y": 1192,
+        "w": 256,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "bunk_bed": {
+      "frame": {
+        "x": 4,
+        "y": 1324,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "dining_table": {
+      "frame": {
+        "x": 136,
+        "y": 1324,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "kitchen_counter": {
+      "frame": {
+        "x": 332,
+        "y": 1324,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "fridge": {
+      "frame": {
+        "x": 528,
+        "y": 1324,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "sink_unit": {
+      "frame": {
+        "x": 596,
+        "y": 1324,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "pantry": {
+      "frame": {
+        "x": 728,
+        "y": 1324,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "sofa": {
+      "frame": {
+        "x": 4,
+        "y": 1456,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "armchair_coffee_table": {
+      "frame": {
+        "x": 200,
+        "y": 1456,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "bookcase": {
+      "frame": {
+        "x": 396,
+        "y": 1456,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "rug_green": {
+      "frame": {
+        "x": 528,
+        "y": 1456,
+        "w": 192,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "plant_large": {
+      "frame": {
+        "x": 724,
+        "y": 1456,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "plant_round": {
+      "frame": {
+        "x": 792,
+        "y": 1456,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "fan_floor": {
+      "frame": {
+        "x": 860,
+        "y": 1456,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "lantern_floor": {
+      "frame": {
+        "x": 928,
+        "y": 1456,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "lamp_pipe": {
+      "frame": {
+        "x": 4,
+        "y": 1588,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "lamp_hanging": {
+      "frame": {
+        "x": 72,
+        "y": 1588,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_plain": {
+      "frame": {
+        "x": 140,
+        "y": 1588,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_mesh": {
+      "frame": {
+        "x": 272,
+        "y": 1588,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_planter_small": {
+      "frame": {
+        "x": 404,
+        "y": 1588,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_planter_large": {
+      "frame": {
+        "x": 536,
+        "y": 1588,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "curtain_blue": {
+      "frame": {
+        "x": 668,
+        "y": 1588,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wall_slats": {
+      "frame": {
+        "x": 800,
+        "y": 1588,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "notice_board": {
+      "frame": {
+        "x": 4,
+        "y": 1720,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "whiteboard": {
+      "frame": {
+        "x": 136,
+        "y": 1720,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "landscape_picture": {
+      "frame": {
+        "x": 268,
+        "y": 1720,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "hanging_plant": {
+      "frame": {
+        "x": 400,
+        "y": 1720,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "mug": {
+      "frame": {
+        "x": 468,
+        "y": 1720,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "box_single": {
+      "frame": {
+        "x": 536,
+        "y": 1720,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "boxes_stack": {
+      "frame": {
+        "x": 604,
+        "y": 1720,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "crate_small": {
+      "frame": {
+        "x": 672,
+        "y": 1720,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "books_stack": {
+      "frame": {
+        "x": 740,
+        "y": 1720,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "fan_small": {
+      "frame": {
+        "x": 808,
+        "y": 1720,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "lantern_small": {
+      "frame": {
+        "x": 876,
+        "y": 1720,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "fire_extinguisher": {
+      "frame": {
+        "x": 944,
+        "y": 1720,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "cleaning_bucket": {
+      "frame": {
+        "x": 4,
+        "y": 1852,
+        "w": 128,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "traffic_cone": {
+      "frame": {
+        "x": 136,
+        "y": 1852,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "warning_sign": {
+      "frame": {
+        "x": 204,
+        "y": 1852,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "pipe_blue_manifold": {
+      "frame": {
+        "x": 272,
+        "y": 1852,
+        "w": 192,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    }
+  },
+  "meta": {
+    "app": "OpenAI Bunker Asset Normalizer",
+    "version": "1.0",
+    "image": "bunker_objects_64.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 1920
+    },
+    "scale": "1"
+  },
+  "bunker": {
+    "tileSize": 64,
+    "objects": {
+      "wall_straight": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            20,
+            632,
+            127,
+            744
+          ]
+        }
+      },
+      "wall_corner_in": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            145,
+            632,
+            252,
+            744
+          ]
+        }
+      },
+      "wall_t": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            269,
+            632,
+            376,
+            744
+          ]
+        }
+      },
+      "wall_corner_out": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            394,
+            632,
+            502,
+            744
+          ]
+        }
+      },
+      "wall_door_frame_wide": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            518,
+            632,
+            622,
+            744
+          ]
+        }
+      },
+      "wall_door_frame": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            638,
+            632,
+            744,
+            744
+          ]
+        }
+      },
+      "pillar_square": {
+        "category": "structure",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            760,
+            632,
+            810,
+            744
+          ]
+        }
+      },
+      "pillar_round": {
+        "category": "structure",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            830,
+            632,
+            900,
+            744
+          ]
+        }
+      },
+      "shaft_square": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            922,
+            632,
+            1065,
+            744
+          ]
+        }
+      },
+      "shaft_stairs": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            1073,
+            632,
+            1223,
+            744
+          ]
+        }
+      },
+      "door_green": {
+        "category": "door",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            20,
+            760,
+            127,
+            889
+          ]
+        }
+      },
+      "door_blue": {
+        "category": "door",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            145,
+            760,
+            252,
+            889
+          ]
+        }
+      },
+      "door_orange": {
+        "category": "door",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            269,
+            760,
+            376,
+            889
+          ]
+        }
+      },
+      "door_airlock": {
+        "category": "door",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            394,
+            760,
+            502,
+            889
+          ]
+        }
+      },
+      "door_double": {
+        "category": "door",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            518,
+            760,
+            622,
+            889
+          ]
+        }
+      },
+      "hatch_round": {
+        "category": "door",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            636,
+            748,
+            752,
+            893
+          ]
+        }
+      },
+      "ladder_hatch": {
+        "category": "door",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            770,
+            760,
+            904,
+            889
+          ]
+        }
+      },
+      "bulkhead": {
+        "category": "door",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            918,
+            760,
+            1066,
+            889
+          ]
+        }
+      },
+      "security_gate": {
+        "category": "door",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            1070,
+            760,
+            1230,
+            889
+          ]
+        }
+      },
+      "fence_short": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            15,
+            900,
+            130,
+            1002
+          ]
+        }
+      },
+      "fence_medium": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            135,
+            900,
+            250,
+            1002
+          ]
+        }
+      },
+      "fence_tall": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            260,
+            900,
+            370,
+            1002
+          ]
+        }
+      },
+      "lamp_post": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            362,
+            894,
+            425,
+            1020
+          ]
+        }
+      },
+      "wall_lamp": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            425,
+            894,
+            500,
+            1015
+          ]
+        }
+      },
+      "ceiling_lamp": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            500,
+            894,
+            575,
+            1015
+          ]
+        }
+      },
+      "bulb_lamp": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            575,
+            894,
+            660,
+            1015
+          ]
+        }
+      },
+      "cage_lamp": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            660,
+            894,
+            735,
+            1015
+          ]
+        }
+      },
+      "surface_shed": {
+        "category": "surface_building",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            745,
+            900,
+            890,
+            1045
+          ]
+        }
+      },
+      "solar_panel": {
+        "category": "power",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            880,
+            890,
+            1000,
+            1035
+          ]
+        }
+      },
+      "water_tower": {
+        "category": "water",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            995,
+            900,
+            1095,
+            1042
+          ]
+        }
+      },
+      "antenna": {
+        "category": "communications",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            1090,
+            885,
+            1230,
+            1040
+          ]
+        }
+      },
+      "wood_sign": {
+        "category": "decoration",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            40,
+            1025,
+            155,
+            1140
+          ]
+        }
+      },
+      "wood_crate": {
+        "category": "storage",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            180,
+            1020,
+            310,
+            1140
+          ]
+        }
+      },
+      "barrel": {
+        "category": "storage",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            330,
+            1018,
+            455,
+            1140
+          ]
+        }
+      },
+      "toolbox": {
+        "category": "workshop",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            470,
+            1015,
+            610,
+            1140
+          ]
+        }
+      },
+      "blueprint_table": {
+        "category": "workshop",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            610,
+            1010,
+            875,
+            1140
+          ]
+        }
+      },
+      "tool_bench": {
+        "category": "workshop",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            860,
+            1010,
+            1115,
+            1140
+          ]
+        }
+      },
+      "soil_empty": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            20,
+            18,
+            110,
+            118
+          ]
+        }
+      },
+      "soil_seed": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            112,
+            18,
+            200,
+            118
+          ]
+        }
+      },
+      "soil_sprout": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            205,
+            18,
+            285,
+            118
+          ]
+        }
+      },
+      "soil_small": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            295,
+            18,
+            380,
+            118
+          ]
+        }
+      },
+      "soil_medium": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            390,
+            18,
+            470,
+            118
+          ]
+        }
+      },
+      "soil_flower": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            480,
+            18,
+            560,
+            118
+          ]
+        }
+      },
+      "soil_fruit_01": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            570,
+            18,
+            650,
+            118
+          ]
+        }
+      },
+      "soil_fruit_02": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            660,
+            18,
+            740,
+            118
+          ]
+        }
+      },
+      "water_empty": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            20,
+            136,
+            110,
+            220
+          ]
+        }
+      },
+      "water_seed": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            112,
+            136,
+            200,
+            220
+          ]
+        }
+      },
+      "water_sprout": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            205,
+            136,
+            285,
+            220
+          ]
+        }
+      },
+      "water_small": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            295,
+            136,
+            380,
+            220
+          ]
+        }
+      },
+      "water_medium": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            390,
+            136,
+            470,
+            220
+          ]
+        }
+      },
+      "water_large": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            480,
+            136,
+            560,
+            220
+          ]
+        }
+      },
+      "water_fruit_01": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            570,
+            136,
+            650,
+            220
+          ]
+        }
+      },
+      "water_fruit_02": {
+        "category": "hydroponics",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [
+          "growth_stage"
+        ],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            660,
+            136,
+            740,
+            220
+          ]
+        }
+      },
+      "water_tank_small": {
+        "category": "water",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            20,
+            235,
+            118,
+            382
+          ]
+        }
+      },
+      "water_filter_double": {
+        "category": "water",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            118,
+            235,
+            255,
+            382
+          ]
+        }
+      },
+      "water_filter_tall": {
+        "category": "water",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            255,
+            235,
+            395,
+            382
+          ]
+        }
+      },
+      "water_tank_large": {
+        "category": "water",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            400,
+            235,
+            540,
+            382
+          ]
+        }
+      },
+      "recycler": {
+        "category": "production",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            545,
+            235,
+            680,
+            382
+          ]
+        }
+      },
+      "furnace": {
+        "category": "production",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            680,
+            235,
+            828,
+            382
+          ]
+        }
+      },
+      "generator": {
+        "category": "power",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            828,
+            235,
+            972,
+            382
+          ]
+        }
+      },
+      "control_terminal": {
+        "category": "control",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            970,
+            235,
+            1082,
+            382
+          ]
+        }
+      },
+      "control_monitor": {
+        "category": "control",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1080,
+            235,
+            1215,
+            382
+          ]
+        }
+      },
+      "conveyor_straight_01": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            18,
+            400,
+            120,
+            503
+          ]
+        }
+      },
+      "conveyor_straight_02": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            130,
+            400,
+            255,
+            503
+          ]
+        }
+      },
+      "conveyor_curve_left": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            255,
+            400,
+            375,
+            503
+          ]
+        }
+      },
+      "conveyor_curve_right": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            380,
+            400,
+            490,
+            503
+          ]
+        }
+      },
+      "conveyor_t_left": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            490,
+            400,
+            595,
+            503
+          ]
+        }
+      },
+      "conveyor_t_right": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            595,
+            400,
+            700,
+            503
+          ]
+        }
+      },
+      "conveyor_cross": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            695,
+            400,
+            790,
+            503
+          ]
+        }
+      },
+      "conveyor_side": {
+        "category": "logistics",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            790,
+            400,
+            870,
+            503
+          ]
+        }
+      },
+      "conveyor_end": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            865,
+            400,
+            975,
+            503
+          ]
+        }
+      },
+      "conveyor_powered": {
+        "category": "logistics",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            970,
+            400,
+            1085,
+            503
+          ]
+        }
+      },
+      "conveyor_loader": {
+        "category": "logistics",
+        "footprint": {
+          "w": 3,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1080,
+            400,
+            1235,
+            503
+          ]
+        }
+      },
+      "shelf_empty": {
+        "category": "storage",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            18,
+            520,
+            145,
+            680
+          ]
+        }
+      },
+      "shelf_supplies": {
+        "category": "storage",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            145,
+            520,
+            290,
+            680
+          ]
+        }
+      },
+      "shelf_tools": {
+        "category": "storage",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            290,
+            520,
+            430,
+            680
+          ]
+        }
+      },
+      "scrap_station": {
+        "category": "production",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            430,
+            520,
+            560,
+            680
+          ]
+        }
+      },
+      "scrap_pile": {
+        "category": "resource",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            555,
+            520,
+            705,
+            680
+          ]
+        }
+      },
+      "ore_bin": {
+        "category": "resource",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            700,
+            520,
+            830,
+            680
+          ]
+        }
+      },
+      "workbench_precision": {
+        "category": "workshop",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            830,
+            520,
+            1020,
+            680
+          ]
+        }
+      },
+      "workbench_heavy": {
+        "category": "workshop",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1015,
+            520,
+            1235,
+            680
+          ]
+        }
+      },
+      "lockers": {
+        "category": "living",
+        "footprint": {
+          "w": 4,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            18,
+            685,
+            305,
+            855
+          ]
+        }
+      },
+      "bunk_bed": {
+        "category": "living",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            315,
+            685,
+            480,
+            855
+          ]
+        }
+      },
+      "dining_table": {
+        "category": "living",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            485,
+            685,
+            710,
+            855
+          ]
+        }
+      },
+      "kitchen_counter": {
+        "category": "living",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            710,
+            685,
+            950,
+            855
+          ]
+        }
+      },
+      "fridge": {
+        "category": "living",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            950,
+            685,
+            1045,
+            855
+          ]
+        }
+      },
+      "sink_unit": {
+        "category": "living",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1040,
+            685,
+            1128,
+            855
+          ]
+        }
+      },
+      "pantry": {
+        "category": "living",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1125,
+            685,
+            1238,
+            855
+          ]
+        }
+      },
+      "sofa": {
+        "category": "living",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            18,
+            850,
+            178,
+            990
+          ]
+        }
+      },
+      "armchair_coffee_table": {
+        "category": "living",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            190,
+            850,
+            310,
+            990
+          ]
+        }
+      },
+      "bookcase": {
+        "category": "living",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            345,
+            850,
+            500,
+            1000
+          ]
+        }
+      },
+      "rug_green": {
+        "category": "decoration",
+        "footprint": {
+          "w": 3,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            500,
+            850,
+            710,
+            1000
+          ]
+        }
+      },
+      "plant_large": {
+        "category": "decoration",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            710,
+            850,
+            805,
+            1000
+          ]
+        }
+      },
+      "plant_round": {
+        "category": "decoration",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            800,
+            850,
+            900,
+            1000
+          ]
+        }
+      },
+      "fan_floor": {
+        "category": "utility",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            905,
+            850,
+            1015,
+            1000
+          ]
+        }
+      },
+      "lantern_floor": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1015,
+            850,
+            1090,
+            1000
+          ]
+        }
+      },
+      "lamp_pipe": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1080,
+            850,
+            1160,
+            1000
+          ]
+        }
+      },
+      "lamp_hanging": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1150,
+            850,
+            1238,
+            1000
+          ]
+        }
+      },
+      "wall_plain": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            10,
+            1005,
+            130,
+            1140
+          ]
+        }
+      },
+      "wall_mesh": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            125,
+            1005,
+            270,
+            1140
+          ]
+        }
+      },
+      "wall_planter_small": {
+        "category": "decoration",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            265,
+            1005,
+            410,
+            1140
+          ]
+        }
+      },
+      "wall_planter_large": {
+        "category": "decoration",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            405,
+            1005,
+            540,
+            1140
+          ]
+        }
+      },
+      "curtain_blue": {
+        "category": "decoration",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            535,
+            1005,
+            660,
+            1140
+          ]
+        }
+      },
+      "wall_slats": {
+        "category": "structure",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": true,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            655,
+            1005,
+            785,
+            1140
+          ]
+        }
+      },
+      "notice_board": {
+        "category": "decoration",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            785,
+            1005,
+            900,
+            1140
+          ]
+        }
+      },
+      "whiteboard": {
+        "category": "decoration",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            895,
+            1005,
+            1025,
+            1140
+          ]
+        }
+      },
+      "landscape_picture": {
+        "category": "decoration",
+        "footprint": {
+          "w": 2,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1020,
+            1005,
+            1140,
+            1140
+          ]
+        }
+      },
+      "hanging_plant": {
+        "category": "decoration",
+        "footprint": {
+          "w": 1,
+          "h": 2
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1135,
+            985,
+            1240,
+            1140
+          ]
+        }
+      },
+      "mug": {
+        "category": "small_prop",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            25,
+            1135,
+            110,
+            1240
+          ]
+        }
+      },
+      "box_single": {
+        "category": "small_prop",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            110,
+            1135,
+            220,
+            1240
+          ]
+        }
+      },
+      "boxes_stack": {
+        "category": "small_prop",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            215,
+            1135,
+            335,
+            1240
+          ]
+        }
+      },
+      "crate_small": {
+        "category": "small_prop",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            330,
+            1135,
+            440,
+            1240
+          ]
+        }
+      },
+      "books_stack": {
+        "category": "small_prop",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            435,
+            1135,
+            545,
+            1240
+          ]
+        }
+      },
+      "fan_small": {
+        "category": "small_prop",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            545,
+            1135,
+            660,
+            1240
+          ]
+        }
+      },
+      "lantern_small": {
+        "category": "light",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            660,
+            1135,
+            750,
+            1240
+          ]
+        }
+      },
+      "fire_extinguisher": {
+        "category": "safety",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            745,
+            1135,
+            840,
+            1240
+          ]
+        }
+      },
+      "cleaning_bucket": {
+        "category": "small_prop",
+        "footprint": {
+          "w": 2,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            835,
+            1135,
+            985,
+            1240
+          ]
+        }
+      },
+      "traffic_cone": {
+        "category": "safety",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            995,
+            1135,
+            1110,
+            1240
+          ]
+        }
+      },
+      "warning_sign": {
+        "category": "safety",
+        "footprint": {
+          "w": 1,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_spielobjekte_und_einrichtungssammlung.png",
+          "box": [
+            1110,
+            1135,
+            1240,
+            1240
+          ]
+        }
+      },
+      "pipe_blue_manifold": {
+        "category": "utility_floor",
+        "footprint": {
+          "w": 3,
+          "h": 1
+        },
+        "solid": false,
+        "tags": [],
+        "source": {
+          "file": "pixel_art_tileset_für_survival_und_basenbau.png",
+          "box": [
+            1045,
+            508,
+            1235,
+            618
+          ]
+        }
+      }
+    }
+  }
+}
