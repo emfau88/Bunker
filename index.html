@@ -15,31 +15,36 @@
 html,body{margin:0;min-height:100%;background:radial-gradient(circle at 50% -10%,#2b3926,#111710 55%,#090d08);color:var(--cream);font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;overscroll-behavior:none}
 button{font:inherit;color:inherit}
 body{overflow-x:hidden}
-.app{width:min(1320px,100%);min-height:100dvh;margin:auto;padding:calc(8px + env(safe-area-inset-top)) 8px calc(10px + env(safe-area-inset-bottom));display:grid;gap:8px;grid-template-rows:auto auto minmax(0,1fr) auto auto}
+.app{width:min(1220px,100%);min-height:100dvh;margin:auto;padding:calc(8px + env(safe-area-inset-top)) 8px calc(10px + env(safe-area-inset-bottom));display:grid;gap:8px;grid-template-rows:auto auto auto auto;align-content:center}
 .card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:2px solid #414e3b;border-radius:13px;box-shadow:0 4px 0 #080b07,inset 0 1px 0 rgba(255,255,255,.06)}
 .top{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:8px}
 .clock{padding:8px 12px;min-width:105px;display:grid;align-content:center}.clock b{color:var(--green);font-size:14px}.clock span{color:var(--muted);font-size:12px}
 .resources{display:flex;min-width:0;overflow-x:auto;scrollbar-width:none}.resources::-webkit-scrollbar,.levels::-webkit-scrollbar,.buildbar::-webkit-scrollbar{display:none}
 .res{min-width:106px;flex:1 0 106px;padding:6px 9px;border-right:1px solid #44503e;display:grid;grid-template-columns:23px 1fr;grid-template-rows:auto auto;align-items:center;column-gap:5px}.res:last-child{border:0}.res i{grid-row:1/3;font-style:normal;font-size:18px}.res label{font-size:9px;color:var(--muted);letter-spacing:.4px}.res b{font-size:12px}
-.actions{display:flex;gap:4px;padding:4px}.btn{border:1px solid #5a694f;border-radius:9px;background:linear-gradient(#384532,#252e22);box-shadow:0 2px 0 #090c08;cursor:pointer}.btn:active{transform:translateY(1px);box-shadow:0 1px 0 #090c08}.iconbtn{width:42px;font-size:17px}
+.actions{display:flex;gap:4px;padding:4px}.btn{border:1px solid #5a694f;border-radius:9px;background:linear-gradient(#384532,#252e22);box-shadow:0 2px 0 #090c08;cursor:pointer}.btn:active{transform:translateY(1px);box-shadow:0 1px 0 #090c08}.iconbtn{width:42px;font-size:17px}.iconbtn.active{color:#fff1bd;border-color:var(--amber);background:linear-gradient(#5a4d2d,#342f20);outline:1px solid rgba(227,179,93,.35)}#tasks{display:none}
 .levels{display:flex;padding:6px;gap:6px;overflow-x:auto}.level{flex:1 0 145px;text-align:left;padding:8px 11px;border:1px solid #56634c;border-radius:9px;background:#293226;color:var(--muted);cursor:pointer}.level small{display:block;color:#8f9b82;margin-top:2px;font-size:9px}.level.active{color:#fff1bd;border-color:var(--amber);background:linear-gradient(#51462a,#342f20);outline:1px solid rgba(227,179,93,.35)}.level.locked{opacity:.5}
-.main{display:grid;grid-template-columns:minmax(0,1fr) 275px;gap:8px;min-height:0}
-.gamecard{position:relative;min-height:360px;overflow:hidden;background:#080c07}
-#game{width:100%;height:100%;min-height:360px}
-#game{display:flex;align-items:center;justify-content:center;overflow:hidden}
-#game canvas{display:block!important;max-width:100%!important;max-height:100%!important;width:auto!important;height:auto!important;margin:auto;image-rendering:pixelated;image-rendering:crisp-edges;touch-action:none}
+.main{position:relative;display:grid;grid-template-columns:minmax(0,888px) 275px;justify-content:center;align-items:start;gap:8px;min-height:0}
+.gamecard{position:relative;width:100%;aspect-ratio:3/2;min-height:0;overflow:hidden;background:#080c07}
+#game{width:100%;height:100%;min-height:0;overflow:hidden}
+#game canvas{display:block!important;width:100%!important;height:100%!important;image-rendering:pixelated;image-rendering:crisp-edges;touch-action:none}
 .overlay-chip{position:absolute;left:10px;top:10px;z-index:4;padding:7px 9px;background:rgba(23,31,21,.92);border:1px solid #607057;border-radius:8px;font-size:11px;pointer-events:none}
-.side{padding:12px;display:flex;flex-direction:column;gap:10px;min-width:0}.side h2{font-size:14px;color:var(--green);margin:0}.side p{font-size:11px;line-height:1.45;color:var(--muted);margin:0}.checklist{display:grid;gap:7px}.check{display:grid;grid-template-columns:18px 1fr;gap:5px;font-size:11px}.check.done{color:var(--green)}.statusbox{padding:10px;background:#303a2a;border:1px solid #526247;border-radius:9px}.statusbox strong{display:block;color:var(--amber);font-size:11px;margin-bottom:4px}.progress{height:8px;border:1px solid #56634c;background:#161d14;border-radius:999px;overflow:hidden}.progress span{display:block;height:100%;background:linear-gradient(90deg,#739d4c,#b3d46e);width:0}
+.objective-chip{display:none;position:absolute;right:10px;top:10px;z-index:6;max-width:min(290px,55%);padding:7px 9px;text-align:left;font-size:10px;color:var(--cream);background:rgba(35,45,31,.94);border:1px solid #69785c;border-radius:8px;box-shadow:0 2px 8px #000;cursor:pointer}.objective-chip b{color:var(--green)}
+.side{padding:12px;display:flex;flex-direction:column;gap:10px;min-width:0;max-height:600px;overflow:auto}.side h2{font-size:14px;color:var(--green);margin:0}.side p{font-size:11px;line-height:1.45;color:var(--muted);margin:0}.side-close{display:none;position:absolute;right:10px;top:10px;width:32px;height:32px}.checklist{display:grid;gap:7px}.check{display:grid;grid-template-columns:18px 1fr;gap:5px;font-size:11px}.check.done{color:var(--green)}.statusbox{padding:10px;background:#303a2a;border:1px solid #526247;border-radius:9px}.statusbox strong{display:block;color:var(--amber);font-size:11px;margin-bottom:4px}.progress{height:8px;border:1px solid #56634c;background:#161d14;border-radius:999px;overflow:hidden}.progress span{display:block;height:100%;background:linear-gradient(90deg,#739d4c,#b3d46e);width:0}
+.secondary-resources{display:grid;grid-template-columns:1fr 1fr;gap:5px}.secondary-resources span{padding:6px 7px;border:1px solid #46533e;border-radius:7px;background:#1c241a;font-size:9px;color:var(--muted)}.secondary-resources b{display:block;color:var(--cream);font-size:11px;margin-top:2px}.side-actions{display:flex;gap:6px;margin-top:auto}.side-actions .btn{flex:1;padding:7px 8px;font-size:9px}
 .selection{padding:10px;background:#1c241a;border:1px solid #46533e;border-radius:9px;min-height:72px}.selection b{font-size:11px}.selection p{margin-top:4px}
-.buildbar{display:flex;gap:7px;padding:8px;overflow-x:auto}.tool{flex:0 0 125px;min-height:82px;padding:7px;text-align:left;display:grid;grid-template-columns:34px 1fr;grid-template-rows:auto auto auto;gap:2px 6px;align-items:center;border:1px solid #56634c;border-radius:10px;background:linear-gradient(#354130,#252e22);box-shadow:0 2px 0 #090c08;cursor:pointer}.tool .emoji{grid-row:1/4;font-size:25px;text-align:center}.tool b{font-size:11px}.tool small{font-size:9px;color:var(--muted);line-height:1.2}.tool em{font-style:normal;font-size:9px;color:var(--amber)}.tool.active{border-color:var(--green);background:linear-gradient(#4c5e3a,#303b29);outline:1px solid rgba(167,203,104,.35)}.tool.disabled{opacity:.43;filter:saturate(.55)}
-.footer{padding:8px 11px;display:flex;align-items:center;gap:8px;font-size:10px;color:var(--muted)}.footer .grow{flex:1}.footer b{color:var(--cream)}
+.buildbar{display:flex;gap:7px;padding:7px;overflow-x:auto}.buildbar.collapsed{justify-self:center;min-height:0;padding:4px;overflow:hidden}.build-launch{flex:0 0 auto;min-width:104px;padding:9px 13px;border:1px solid #718060;border-radius:9px;background:linear-gradient(#44523b,#293326);box-shadow:0 2px 0 #090c08;cursor:pointer;font-size:11px;color:#fff1bd}.tool{flex:0 0 118px;min-height:68px;padding:6px;text-align:left;display:grid;grid-template-columns:30px 1fr;grid-template-rows:auto auto auto;gap:1px 5px;align-items:center;border:1px solid #56634c;border-radius:10px;background:linear-gradient(#354130,#252e22);box-shadow:0 2px 0 #090c08;cursor:pointer}.tool .emoji{grid-row:1/4;font-size:22px;text-align:center}.tool b{font-size:10px}.tool small{font-size:8px;color:var(--muted);line-height:1.15}.tool em{font-style:normal;font-size:8px;color:var(--amber)}.tool.active{border-color:var(--green);background:linear-gradient(#4c5e3a,#303b29);outline:1px solid rgba(167,203,104,.35)}.tool.disabled{opacity:.43;filter:saturate(.55)}
 .modal{position:fixed;inset:0;z-index:50;background:rgba(4,7,3,.82);display:none;place-items:center;padding:16px}.modal.open{display:grid}.modalbox{width:min(620px,100%);max-height:86dvh;overflow:auto;padding:18px}.modalbox h2{color:var(--green);font-size:17px;margin:0 0 10px}.modalbox p,.modalbox li{font-size:12px;line-height:1.5;color:var(--muted)}.modalbox .close{float:right;padding:7px 10px}
 .toast{position:fixed;left:50%;bottom:calc(15px + env(safe-area-inset-bottom));z-index:80;transform:translate(-50%,20px);opacity:0;padding:9px 13px;background:#263322;border:1px solid #6d805d;border-radius:10px;box-shadow:0 4px 15px #000;color:var(--cream);font-size:11px;transition:.2s}.toast.show{opacity:1;transform:translate(-50%,0)}
 .dependency-error{display:none;padding:20px;color:#ffe2ca;background:rgba(40,16,12,.92);position:absolute;inset:0;z-index:20;overflow:auto}.dependency-error.show{display:block}
-@media(max-width:820px){
-  .app{grid-template-rows:auto auto auto auto auto}.top{grid-template-columns:auto 1fr}.resources{grid-column:1/3;order:3}.actions{justify-self:end}.main{grid-template-columns:1fr}.gamecard{height:min(68dvh,620px);min-height:340px}.side{display:grid;grid-template-columns:1fr 1fr}.side>h2,.side>.intro{grid-column:1/3}.selection{min-height:auto}
+@media(max-width:1100px){
+  .app{align-content:start}.main{grid-template-columns:minmax(0,888px);overflow:hidden}#tasks{display:block}.objective-chip{display:block}.side{display:flex;position:absolute;z-index:30;right:8px;top:8px;width:min(330px,calc(100% - 16px));max-height:calc(100% - 16px);transform:translateX(calc(100% + 24px));transition:transform .2s ease;box-shadow:0 10px 32px #000}.side.open{transform:translateX(0)}.side-close{display:block}.side h2{padding-right:38px}
 }
-@media(max-width:520px){.app{padding-left:5px;padding-right:5px}.clock{min-width:92px;padding:7px 9px}.level{flex-basis:122px}.gamecard{height:55dvh;min-height:330px}.side{display:flex}.tool{flex-basis:112px}.res{min-width:92px;flex-basis:92px}}
+@media(pointer:coarse),(max-width:700px),(max-height:520px) and (max-width:1100px){
+  html,body{height:100%;overflow:hidden}.app{width:100%;height:100dvh;min-height:0;padding:calc(4px + env(safe-area-inset-top)) 4px calc(4px + env(safe-area-inset-bottom));gap:4px;grid-template-rows:auto auto minmax(0,1fr) auto;align-content:stretch}.top{grid-template-columns:auto minmax(0,1fr);gap:4px}.clock{min-width:78px;padding:5px 7px}.clock b{font-size:11px}.clock span{font-size:10px}.resources{grid-column:1/3;order:3;min-height:42px}.res{min-width:79px;flex-basis:79px;padding:4px 6px;grid-template-columns:18px 1fr}.res i{font-size:15px}.res label{font-size:7px}.res b{font-size:9px}.actions{justify-self:end;gap:2px;padding:2px}.iconbtn{width:36px;font-size:15px}.levels{padding:3px;gap:3px}.level{flex-basis:118px;padding:5px 7px;font-size:10px}.level small{font-size:7px}.main{width:100%;height:100%;display:block}.gamecard{height:100%;aspect-ratio:auto;border-radius:10px}.buildbar{min-height:0;padding:4px;gap:4px}.tool{flex-basis:100px;min-height:56px;grid-template-columns:25px 1fr;padding:4px}.tool .emoji{font-size:19px}.tool small{display:none}.overlay-chip{left:7px;top:7px;padding:5px 7px;font-size:9px}.objective-chip{right:7px;top:7px;padding:5px 7px;font-size:8px}.side{right:4px;top:4px;max-height:calc(100% - 8px)}.toast{bottom:calc(58px + env(safe-area-inset-bottom))}
+}
+@media(pointer:coarse) and (orientation:landscape),(max-height:520px) and (max-width:1100px){
+  .app{position:relative}.top{position:absolute;z-index:18;left:4px;right:4px;top:4px;grid-template-columns:auto minmax(0,1fr) auto}.clock{min-width:72px}.resources{grid-column:auto;order:initial}.resources .res{min-width:72px;flex-basis:72px}.levels{position:absolute;left:8px;top:56px;z-index:18;width:min(430px,58vw);background:rgba(34,42,32,.92)}.level{min-width:110px}.main{position:absolute;inset:0;width:auto;height:auto}.gamecard{position:absolute;inset:0}.buildbar{position:absolute;z-index:18;left:8px;right:8px;bottom:8px;background:rgba(34,42,32,.94);max-width:calc(100% - 16px)}.buildbar.collapsed{left:auto;width:auto}.objective-chip{top:104px}.toast{bottom:68px}
+}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
@@ -51,6 +56,9 @@ body{overflow-x:hidden}
     <div class="clock card"><b id="day">TAG 1</b><span id="time">07:30</span></div>
     <div id="resources" class="resources card"></div>
     <div class="actions card">
+      <button class="btn iconbtn" id="view" title="Ansichtsmodus: Kamera bewegen und zoomen" aria-pressed="false">✋</button>
+      <button class="btn iconbtn" id="tasks" title="Aufgaben ein-/ausblenden" aria-expanded="false">☷</button>
+      <button class="btn iconbtn" id="fullscreen" title="Vollbild">⛶</button>
       <button class="btn iconbtn" id="pause" title="Pause">⏸</button>
       <button class="btn iconbtn" id="sound" title="Ton">🔊</button>
       <button class="btn iconbtn" id="help" title="Hilfe">?</button>
@@ -63,12 +71,15 @@ body{overflow-x:hidden}
     <section class="gamecard card">
       <div id="game"></div>
       <div id="toolchip" class="overlay-chip">Werkzeug: Auswahl</div>
+      <button id="objectiveChip" class="objective-chip"><b>Nächstes Ziel</b><br><span>Versorgung stabilisieren</span></button>
       <div id="depError" class="dependency-error"></div>
     </section>
 
     <aside class="side card">
+      <button class="btn side-close" id="sideClose" title="Aufgaben schließen">✕</button>
       <h2 id="goalTitle">VERSORGUNG STABILISIEREN</h2>
       <p class="intro" id="goalText">Baue die erste bewohnbare Bunkerebene auf. Die Industrie wird danach freigeschaltet.</p>
+      <div id="secondaryResources" class="secondary-resources"></div>
       <div id="checklist" class="checklist"></div>
       <div class="statusbox">
         <strong id="eventTitle">🌤 Ruhiger Morgen</strong>
@@ -79,16 +90,14 @@ body{overflow-x:hidden}
         <div class="progress"><span id="progressFill"></span></div>
       </div>
       <div id="selection" class="selection"><b>Kein Objekt gewählt</b><p>Tippe ein Gebäude an oder wähle unten ein Werkzeug.</p></div>
+      <div class="side-actions">
+        <button class="btn" id="save">Speichern</button>
+        <button class="btn" id="reset">Reset</button>
+      </div>
     </aside>
   </main>
 
   <section id="buildbar" class="buildbar card"></section>
-
-  <footer class="footer card">
-    <span>💡</span><span class="grow" id="message"><b>Tipp:</b> Auf Ebene −1 kannst du Fels tileweise ausheben.</span>
-    <button class="btn" id="save" style="padding:6px 9px">Speichern</button>
-    <button class="btn" id="reset" style="padding:6px 9px">Reset</button>
-  </footer>
 </div>
 
 <div id="helpModal" class="modal"><div class="modalbox card">
@@ -101,7 +110,7 @@ body{overflow-x:hidden}
     <li>Auf Ebene −2 muss ein Recycler über Förderbänder mit einem Lager verbunden werden.</li>
     <li>Tippe erntereife Gärten ohne aktives Werkzeug an, um sie zu ernten.</li>
   </ul>
-  <p><b>Steuerung:</b> Touch oder Maus. Das Spiel speichert automatisch im Browser.</p>
+  <p><b>Steuerung:</b> Im Ansichtsmodus mit einem Finger oder der Maus verschieben, mit zwei Fingern oder dem Mausrad zoomen. Außerhalb des Ansichtsmodus kannst du bauen und Objekte auswählen. Das Spiel speichert automatisch im Browser.</p>
   <p><b>Credits/Lizenz:</b> Figuren und Pflanzen aus „SuperRetroRanch Free Tier v32“ von Gif. <b>Wichtig: Die im ZIP enthaltene Free-Tier-Lizenz erlaubt nur nichtkommerzielle Projekte.</b> Terrain, Bunkerobjekte und Maschinen werden aus dem technisch normalisierten Bunker Asset Pack v1 im Repository geladen. Externe Laufzeitbibliotheken: Phaser, EasyStar.js und Howler.js (MIT).</p>
 </div></div>
 
@@ -113,10 +122,10 @@ const ASSETS={"terrain":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAQC
 
 (function(){
 "use strict";
-const SAVE_KEY="cozy-bunker-max-prototype-v3";
+const SAVE_KEY="cozy-bunker-max-prototype-v5";
 const MAP_W=24, MAP_H=16, TILE=32;
 const TERRAIN={GRASS:0,DIRT:1,PATH:2,ROCK:3,FLOOR:4,FLOOR_ALT:5,HAZARD:6,WATER:7};
-const EXTERNAL_ASSET_VERSION="1";
+const EXTERNAL_ASSET_VERSION="5";
 const OBJECT_FRAME={
   shed:"surface_shed",solar:"solar_panel",water_tank:"water_tower",antenna:"antenna",
   entrance:"shaft_stairs",storage:"shelf_supplies",lamp:"lantern_small",
@@ -132,13 +141,13 @@ const LEVEL_META={
 };
 const DEF={
   dig:{name:"Graben",icon:"⛏",desc:"Fels tileweise ausheben",levels:["level1","level2"],cost:{food:1},size:[1,1]},
-  garden:{name:"Garten",icon:"🌱",desc:"Langsame Nahrung",levels:["surface"],cost:{scrap:10},size:[2,2],frame:14},
-  solar:{name:"Solarpanel",icon:"🔆",desc:"Energie bei Tageslicht",levels:["surface"],cost:{scrap:16,parts:3},size:[2,2],frame:1},
+  garden:{name:"Garten",icon:"🌱",desc:"Wasser → Nahrung",levels:["surface"],cost:{scrap:10},size:[2,2],frame:14},
+  solar:{name:"Solarpanel",icon:"🔆",desc:"+4 Energie bei Tageslicht",levels:["surface"],cost:{scrap:16,parts:3},size:[2,2],frame:1},
   water_tank:{name:"Wassertank",icon:"💧",desc:"+40 Wasserkapazität",levels:["surface"],cost:{scrap:14,parts:3},size:[2,2],frame:2},
   storage:{name:"Lager",icon:"📦",desc:"Mehr Vorratskapazität",levels:["surface","level1","level2"],cost:{scrap:10},size:[2,2],frame:12},
   lamp:{name:"Lampe",icon:"🏮",desc:"Licht & etwas Moral",levels:["surface","level1","level2"],cost:{scrap:3,parts:1},size:[1,1],propFrame:1},
-  hydro:{name:"Hydroponik",icon:"🌿",desc:"Wasser + Strom → Nahrung",levels:["level1"],cost:{scrap:22,parts:7},size:[2,2],frame:5},
-  water_filter:{name:"Wasserfilter",icon:"🚰",desc:"Strom → Wasser",levels:["level1"],cost:{scrap:18,parts:6},size:[2,2],frame:6},
+  hydro:{name:"Hydroponik",icon:"🌿",desc:"−3 Energie + Wasser → Nahrung",levels:["level1"],cost:{scrap:22,parts:7},size:[2,2],frame:5},
+  water_filter:{name:"Wasseranlage",icon:"🚰",desc:"−2 Energie → Wasser",levels:["surface","level1"],cost:{scrap:18,parts:6},size:[2,2],frame:6},
   dorm:{name:"Schlafraum",icon:"🛏",desc:"+2 Bewohnerplätze",levels:["level1"],cost:{scrap:16,parts:4},size:[2,2],frame:7},
   kitchen:{name:"Küche",icon:"🍲",desc:"Bessere Nahrung & Moral",levels:["level1"],cost:{scrap:15,parts:5},size:[2,2],frame:8},
   recycler:{name:"Recycler",icon:"♻",desc:"Schrott → Teile",levels:["level2"],cost:{scrap:24,parts:8},size:[2,2],frame:9},
@@ -163,45 +172,31 @@ function newState(){
   for(let x=0;x<MAP_W;x++) for(let y=7;y<=8;y++) surface[y*MAP_W+x]=TERRAIN.PATH;
   for(let y=0;y<MAP_H;y++) for(let x=11;x<=12;x++) surface[y*MAP_W+x]=TERRAIN.PATH;
   return {
-    version:4,day:1,minutes:450,paused:false,muted:false,selectedLevel:"surface",selectedTool:null,
-    resources:{power:82,water:76,food:66,scrap:92,parts:28,morale:78},
-    caps:{power:160,water:120,food:130,scrap:220,parts:130,morale:100,population:6},
-    population:4,unlocked:{surface:true,level1:true,level2:false},completed:false,
+    version:5,stage:0,day:1,minutes:450,paused:false,muted:false,selectedLevel:"surface",selectedTool:null,
+    resources:{power:0,water:8,food:18,scrap:86,parts:24,morale:72},
+    caps:{power:0,water:120,food:130,scrap:220,parts:130,morale:100,population:4},
+    population:2,unlocked:{surface:true,level1:false,level2:false},completed:false,
     event:"calm",lastWarning:"",
     maps:{
       surface:{terrain:surface,objects:[
-        {uid:"shed0",type:"shed",x:2,y:2,w:2,h:2,fixed:true},
-        {uid:"solar0",type:"solar",x:6,y:2,w:2,h:2,fixed:true},
-        {uid:"tank0",type:"water_tank",x:9,y:2,w:2,h:2,fixed:true},
-        {uid:"antenna0",type:"antenna",x:14,y:2,w:2,h:2,fixed:true},
-        {uid:"entry0",type:"entrance",x:11,y:6,w:2,h:2,fixed:true},
-        {uid:"garden0",type:"garden",x:18,y:2,w:2,h:2,fixed:true,growth:3},
-        {uid:"lamp0",type:"lamp",x:4,y:7,w:1,h:1,fixed:true},
-        {uid:"lamp1",type:"lamp",x:19,y:7,w:1,h:1,fixed:true},
-        {uid:"store0",type:"storage",x:3,y:10,w:2,h:2,fixed:true}
+        {uid:"entry0",type:"entrance",x:11,y:6,w:2,h:2,fixed:true}
       ],trees:[{x:1,y:0,big:true},{x:21,y:0,big:true},{x:0,y:12,big:false},{x:22,y:12,big:true}]},
       level1:{terrain:makeUnderground(1),objects:[
-        {uid:"entry1",type:"entrance",x:11,y:0,w:2,h:2,fixed:true},
-        {uid:"lamp2",type:"lamp",x:9,y:6,w:1,h:1,fixed:true},
-        {uid:"lamp3",type:"lamp",x:14,y:6,w:1,h:1,fixed:true},
-        {uid:"store1",type:"storage",x:4,y:11,w:2,h:2,fixed:true}
+        {uid:"entry1",type:"entrance",x:11,y:0,w:2,h:2,fixed:true}
       ],trees:[]},
       level2:{terrain:makeUnderground(2),objects:[
-        {uid:"entry2",type:"entrance",x:11,y:0,w:2,h:2,fixed:true},
-        {uid:"lamp4",type:"lamp",x:10,y:7,w:1,h:1,fixed:true}
+        {uid:"entry2",type:"entrance",x:11,y:0,w:2,h:2,fixed:true}
       ],trees:[]}
     },
     colonists:[
       {id:"mara",name:"Mara",level:"surface",x:7,y:9,tint:0xffffff},
-      {id:"finn",name:"Finn",level:"surface",x:15,y:9,tint:0xdde9ff},
-      {id:"juno",name:"Juno",level:"level1",x:11,y:7,tint:0xffe0c0},
-      {id:"ori",name:"Ori",level:"level1",x:12,y:11,tint:0xd4ffd0}
+      {id:"finn",name:"Finn",level:"surface",x:15,y:9,tint:0xdde9ff}
     ]
   };
 }
-function loadState(){try{const r=localStorage.getItem(SAVE_KEY);if(!r)return null;const s=JSON.parse(r);return s.version===4?s:null;}catch(e){return null}}
+function loadState(){try{const r=localStorage.getItem(SAVE_KEY);if(!r)return null;const s=JSON.parse(r);return s.version===5?s:null;}catch(e){return null}}
 let state=loadState()||newState();
-let game=null, scene=null, sounds=null, lastToast=0;
+let game=null, scene=null, sounds=null, lastToast=0, viewMode=false, buildMenuOpen=false;
 const $=s=>document.querySelector(s);
 function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(lastToast);lastToast=setTimeout(()=>t.classList.remove("show"),1900)}
 function fmt(n){return Math.max(0,Math.floor(n))}
@@ -209,27 +204,50 @@ function count(type,level=null){let n=0;for(const [key,map] of Object.entries(st
 function objectDef(type){return DEF[type]||{}}
 function canAfford(cost){return Object.entries(cost||{}).every(([k,v])=>state.resources[k]>=v)}
 function pay(cost){for(const [k,v] of Object.entries(cost||{}))state.resources[k]-=v}
+const POWER_USE={water_filter:2,hydro:3,kitchen:2,recycler:3,workshop:2,lamp:.25};
+function powerStats(){
+  const h=state.minutes/60,daylight=h>=6&&h<=19?1:.08,storm=isStorm();
+  const production=count("solar")*4*daylight*(storm?.45:1)+count("generator")*8;
+  const consumers=[];
+  for(const map of Object.values(state.maps))for(const o of map.objects)if(POWER_USE[o.type])consumers.push(o);
+  const priority={water_filter:0,hydro:1,kitchen:2,recycler:3,workshop:4,lamp:5};
+  consumers.sort((a,b)=>(priority[a.type]??9)-(priority[b.type]??9));
+  let free=production;const powered=new Set();
+  for(const o of consumers){const use=POWER_USE[o.type];if(free+1e-6>=use){free-=use;powered.add(o.uid)}}
+  const requested=consumers.reduce((sum,o)=>sum+POWER_USE[o.type],0);
+  return{production,requested,used:production-free,free:Math.max(0,free),powered};
+}
+function isPowered(o){return !POWER_USE[o.type]||powerStats().powered.has(o.uid)}
+function toolAvailable(key){
+  if(key==="remove")return true;
+  const stage=state.stage||0;
+  if(stage===0)return ["solar","water_filter"].includes(key);
+  if(stage===1)return ["solar","water_filter","garden","water_tank","storage"].includes(key);
+  if(stage===2)return ["solar","water_filter","garden","water_tank","storage","dig","lamp","hydro"].includes(key);
+  if(stage===3)return !["recycler","generator","workshop","conveyor"].includes(key);
+  return true;
+}
 function recalcCaps(){
   state.caps.water=120+count("water_tank")*40;
   state.caps.food=130+count("storage")*20;
   state.caps.scrap=220+count("storage")*30;
   state.caps.parts=130+count("storage")*20;
-  state.caps.population=6+count("dorm")*2;
+  state.caps.population=4+count("dorm")*2;
   for(const k of ["water","food","scrap","parts"])state.resources[k]=Math.min(state.resources[k],state.caps[k]);
 }
 function save(show=true){localStorage.setItem(SAVE_KEY,JSON.stringify(state));if(show)toast("Spielstand gespeichert")}
 function describe(type){
   const d={
     shed:"Kleine Wartungshütte. Liefert täglich etwas Schrott.",
-    solar:"Erzeugt tagsüber Energie; Stürme schwächen die Leistung.",
+    solar:"Liefert tagsüber 4 Energie. Nachts bleibt nur eine geringe Restleistung.",
     water_tank:"Erhöht die Wasserkapazität.",
     antenna:"Späterer Ausgangspunkt für Funkereignisse und Expeditionen.",
     entrance:"Verbindet die Bunkerebenen.",
-    garden:"Wächst mit Wasser. Tippe bei voller Reife zum Ernten.",
+    garden:"Verbraucht Wasser und erzeugt laufend Nahrung. Tippe bei voller Reife zum Ernten.",
     storage:"Erhöht Lagerkapazitäten.",
     lamp:"Beleuchtung und ein kleiner Moralbonus.",
-    hydro:"Produziert Nahrung, solange Wasser und Energie vorhanden sind.",
-    water_filter:"Erzeugt Wasser aus Energie.",
+    hydro:"Produziert Nahrung aus Wasser und verbraucht dabei 3 Energie.",
+    water_filter:"Erzeugt Wasser und verbraucht dabei 2 Energie.",
     dorm:"Erhöht Bewohnerkapazität und stabilisiert Moral.",
     kitchen:"Verbessert Nahrungsausbeute und Moral.",
     recycler:"Verarbeitet Schrott zu Teilen. Benötigt eine Förderbandverbindung zu einem Lager.",
@@ -239,21 +257,20 @@ function describe(type){
   };return d[type]||"Bunkerobjekt";
 }
 function progressData(){
-  const first=[
-    [count("hydro")>0,"Hydroponik bauen"],
-    [count("water_filter")>0,"Wasserfilter bauen"],
-    [count("dorm")>0,"Schlafraum bauen"],
-    [state.resources.food>=80,"80 Nahrung stabilisieren"]
-  ];
+  const stage=state.stage||0;
+  if(stage===0){const items=[[count("solar")>0,"Solarpanel bauen"],[count("water_filter")>0,"Wasseranlage bauen"],[state.resources.water>=10,"10 Wasser sammeln"]];return{title:"WASSER SICHERN",text:"Die Wasseranlage braucht 2 Energie. Ein Solarpanel liefert tagsüber 4.",items,ratio:items.filter(x=>x[0]).length/items.length}}
+  if(stage===1){const items=[[count("garden")>0,"Garten anlegen"],[state.resources.food>=20,"20 Nahrung lagern"]];return{title:"NAHRUNG AUFBAUEN",text:"Der Garten verbraucht Wasser und macht daraus langsam Nahrung.",items,ratio:items.filter(x=>x[0]).length/items.length}}
+  if(stage===2){const items=[[count("hydro")>0,"Hydroponik auf Ebene −1 bauen"],[count("solar")>=2,"Zweites Solarpanel bauen"],[state.resources.food>=28,"28 Nahrung stabilisieren"]];return{title:"DEN BUNKER BELEBEN",text:"Hydroponik braucht 3 Energie. Zusammen mit Wasser sind deshalb mindestens zwei Solarpanels nötig.",items,ratio:items.filter(x=>x[0]).length/items.length}}
+  if(stage===3){const items=[[count("dorm")>0,"Schlafraum bauen"],[count("kitchen")>0,"Küche bauen"],[state.resources.food>=35,"35 Nahrung lagern"]];return{title:"WOHNRAUM SCHAFFEN",text:"Mehr Komfort bringt neue Bewohner, erhöht aber auch den laufenden Verbrauch.",items,ratio:items.filter(x=>x[0]).length/items.length}}
   const linked=hasRecyclerLink();
-  const second=[
+  const items=[
     [count("recycler")>0,"Recycler bauen"],
     [count("generator")>0,"Generator bauen"],
     [count("workshop")>0,"Werkstatt bauen"],
     [linked,"Recycler mit Lager verbinden"],
     [state.resources.parts>=50,"50 Teile lagern"]
   ];
-  return state.unlocked.level2?{title:"PRODUKTIONSKETTE AKTIVIEREN",text:"Automatisiere eine kleine Teileproduktion auf Ebene −2.",items:second,ratio:(4+second.filter(x=>x[0]).length)/9}:{title:"VERSORGUNG STABILISIEREN",text:"Baue die erste bewohnbare Bunkerebene auf. Die Industrie wird danach freigeschaltet.",items:first,ratio:first.filter(x=>x[0]).length/9};
+  return{title:"PRODUKTIONSKETTE AKTIVIEREN",text:"Automatisiere eine kleine Teileproduktion auf Ebene −2.",items,ratio:items.filter(x=>x[0]).length/items.length};
 }
 function updateUI(){
   $("#day").textContent="TAG "+state.day;
@@ -261,37 +278,71 @@ function updateUI(){
   $("#time").textContent=String(h).padStart(2,"0")+":"+String(m).padStart(2,"0");
   $("#pause").textContent=state.paused?"▶":"⏸";
   $("#sound").textContent=state.muted?"🔇":"🔊";
-  $("#resources").innerHTML=RESOURCE_INFO.map(([k,i,l])=>`<div class="res"><i>${i}</i><label>${l}</label><b>${fmt(state.resources[k])}/${fmt(state.caps[k]||100)}</b></div>`).join("")+`<div class="res"><i>👥</i><label>BEWOHNER</label><b>${state.population}/${state.caps.population}</b></div>`;
+  const ps=powerStats();
+  $("#resources").innerHTML=RESOURCE_INFO.slice(0,3).map(([k,i,l])=>`<div class="res" ${k==="power"?'title="Verbrauch / verfügbare Leistung"':""}><i>${i}</i><label>${l}</label><b>${k==="power"?`${fmt(ps.used)}/${fmt(ps.production)}`:`${fmt(state.resources[k])}/${fmt(state.caps[k]||100)}`}</b></div>`).join("");
+  $("#secondaryResources").innerHTML=RESOURCE_INFO.slice(3).map(([k,i,l])=>`<span>${i} ${l}<b>${fmt(state.resources[k])}/${fmt(state.caps[k]||100)}</b></span>`).join("")+`<span>👥 BEWOHNER<b>${state.population}/${state.caps.population}</b></span>`;
   $("#levels").innerHTML=Object.entries(LEVEL_META).map(([k,v])=>`<button class="level ${state.selectedLevel===k?"active":""} ${state.unlocked[k]?"":"locked"}" data-level="${k}">${state.unlocked[k]?"":"🔒 "}${v.name}<small>${v.sub}</small></button>`).join("");
   document.querySelectorAll("[data-level]").forEach(b=>b.onclick=()=>switchLevel(b.dataset.level));
   renderBuildbar();
   const p=progressData();$("#goalTitle").textContent=p.title;$("#goalText").textContent=p.text;
   $("#checklist").innerHTML=p.items.map(([ok,t])=>`<div class="check ${ok?"done":""}"><span>${ok?"✓":"○"}</span><span>${t}</span></div>`).join("");
   $("#progressFill").style.width=Math.min(100,p.ratio*100)+"%";
+  const next=p.items.find(([ok])=>!ok);$("#objectiveChip span").textContent=next?next[1]:"Alle aktuellen Ziele erfüllt";
   const ev=currentEvent();$("#eventTitle").textContent=ev.title;$("#eventText").textContent=ev.text;
+  syncViewModeUI();
 }
 function renderBuildbar(){
-  const defs=Object.entries(DEF).filter(([,d])=>d.levels.includes(state.selectedLevel));
-  $("#buildbar").innerHTML=defs.map(([k,d])=>{
+  const bar=$("#buildbar"),toggle=`<button class="build-launch" data-build-toggle>${buildMenuOpen?"✕ Schließen":"🔨 Bauen"}</button>`;
+  bar.classList.toggle("collapsed",!buildMenuOpen);
+  if(!buildMenuOpen){
+    bar.innerHTML=toggle;
+    bar.querySelector("[data-build-toggle]").onclick=()=>{buildMenuOpen=true;renderBuildbar()};
+    return;
+  }
+  const defs=Object.entries(DEF).filter(([k,d])=>d.levels.includes(state.selectedLevel)&&toolAvailable(k));
+  bar.innerHTML=toggle+defs.map(([k,d])=>{
     const cost=Object.entries(d.cost).map(([r,v])=>`${r==="scrap"?"⚙":r==="parts"?"🔩":r==="food"?"🥕":"•"} ${v}`).join(" · ")||"kostenlos";
     return `<button class="tool ${state.selectedTool===k?"active":""} ${canAfford(d.cost)?"":"disabled"}" data-tool="${k}"><span class="emoji">${d.icon}</span><b>${d.name}</b><small>${d.desc}</small><em>${cost}</em></button>`;
   }).join("");
+  bar.querySelector("[data-build-toggle]").onclick=()=>{buildMenuOpen=false;state.selectedTool=null;$("#toolchip").textContent="Werkzeug: Auswahl";renderBuildbar();if(scene)scene.updateCursor()};
   document.querySelectorAll("[data-tool]").forEach(b=>b.onclick=()=>{
-    const k=b.dataset.tool;state.selectedTool=state.selectedTool===k?null:k;
+    const k=b.dataset.tool;
+    if(viewMode){viewMode=false;syncViewModeUI();if(scene)scene.setViewMode(false)}
+    state.selectedTool=state.selectedTool===k?null:k;
     $("#toolchip").textContent="Werkzeug: "+(state.selectedTool?DEF[state.selectedTool].name:"Auswahl");
     if(sounds)sounds.play("click");renderBuildbar();if(scene)scene.updateCursor();
   });
 }
+function syncViewModeUI(){
+  const b=$("#view");if(!b)return;
+  b.classList.toggle("active",viewMode);b.setAttribute("aria-pressed",String(viewMode));
+  b.title=viewMode?"Ansichtsmodus aktiv: ziehen und zoomen":"Ansichtsmodus: Kamera bewegen und zoomen";
+  if(viewMode)$("#toolchip").textContent="Ansicht: ziehen · Pinch/Mausrad zoomt";
+}
+function setViewMode(on,announce=true){
+  viewMode=!!on;
+  if(viewMode){state.selectedTool=null;buildMenuOpen=false}
+  syncViewModeUI();renderBuildbar();
+  if(scene)scene.setViewMode(viewMode);
+  if(announce)toast(viewMode?"Ansichtsmodus: Kamera bewegen":"Baumodus aktiv");
+}
 function switchLevel(level){
-  if(!state.unlocked[level]){toast("Erst die Versorgung auf Ebene −1 stabilisieren.");return}
-  state.selectedLevel=level;state.selectedTool=null;$("#toolchip").textContent="Werkzeug: Auswahl";
-  if(scene)scene.switchLevel(level);updateUI();if(sounds)sounds.setAmbience(level);
+  if(!state.unlocked[level]){toast(level==="level1"?"Sichere zuerst Wasser und Nahrung.":"Stabilisiere zuerst den bewohnten Bunker.");return}
+  try{
+    if(scene)scene.switchLevel(level);
+    state.selectedLevel=level;state.selectedTool=null;buildMenuOpen=false;
+    $("#toolchip").textContent=viewMode?"Ansicht: ziehen · Pinch/Mausrad zoomt":"Werkzeug: Auswahl";
+    updateUI();if(sounds)sounds.setAmbience(level);
+    document.querySelector(".side")?.classList.remove("open");$("#tasks")?.setAttribute("aria-expanded","false");
+  }catch(err){console.error("Ebenenwechsel fehlgeschlagen",err);toast("Ebenenwechsel fehlgeschlagen – bitte erneut versuchen.")}
 }
 function currentEvent(){
   const hour=state.minutes/60;
   if(state.day===2&&hour>=10&&hour<19)return{title:"🌧 Sommersturm",text:"Solar −55 %, Gärten wachsen langsamer, Wasserfilter arbeiten effizienter."};
   if(state.day%3===0&&hour>=19&&hour<23)return{title:"🍿 Gemeinschaftsabend",text:"Küche und Schlafräume erhöhen die Moral stärker."};
-  if(state.resources.power<12)return{title:"⚡ Stromreserve niedrig",text:"Schalte Produktion zurück oder baue einen Generator."};
+  const ps=powerStats();
+  if(ps.requested>ps.production)return{title:"⚡ Stromnetz überlastet",text:`Bedarf ${fmt(ps.requested)}, Leistung ${fmt(ps.production)}. Baue mehr Erzeugung.`};
+  if(!count("solar")&&!count("generator"))return{title:"⚡ Noch kein Strom",text:"Solar versorgt deine erste Wasseranlage mit Energie."};
   if(state.resources.water<12)return{title:"💧 Wasserreserve niedrig",text:"Hydroponik stoppt bald. Ein Wasserfilter hilft."};
   return{title:"🌤 Ruhige Schicht",text:"Bewohner arbeiten selbstständig an erreichbaren Stationen."};
 }
@@ -318,38 +369,54 @@ class SoundManager{
     }
   }
   play(k){if(this.enabled&&!state.muted&&this.s[k])this.s[k].play()}
-  setAmbience(level){if(!this.enabled)return;const next=level==="surface"?"surfaceLoop":"bunkerLoop";if(this.current===next)return;const old=this.current;if(old&&this.s[old])this.s[old].fade(this.s[old].volume(),0,250).once("fade",()=>this.s[old]?.stop());this.current=next;if(!state.muted){this.s[next].volume(0);this.s[next].play();this.s[next].fade(0,next==="surfaceLoop"?.16:.13,500)}}
+  setAmbience(level){if(!this.enabled)return;const next=level==="surface"?"surfaceLoop":"bunkerLoop";if(this.current===next)return;const old=this.current,oldHowl=old?this.s[old]:null;if(oldHowl){oldHowl.once("fade",()=>oldHowl.stop());oldHowl.fade(oldHowl.volume(),0,250)}this.current=next;if(!state.muted){this.s[next].volume(0);this.s[next].play();this.s[next].fade(0,next==="surfaceLoop"?.16:.13,500)}}
   toggle(){state.muted=!state.muted;if(this.enabled){Howler.mute(state.muted);if(!state.muted)this.setAmbience(state.selectedLevel)}updateUI()}
 }
 function simulate(){
   if(state.paused)return;
-  const h=state.minutes/60, daylight=h>=6&&h<=19?1:.08, storm=isStorm();
-  const solar=count("solar")*.33*daylight*(storm?.45:1),gen=count("generator")*.72;
+  const h=state.minutes/60,storm=isStorm(),ps=powerStats();
   const hydro=count("hydro"),filters=count("water_filter"),gardens=count("garden"),kitchens=count("kitchen"),dorms=count("dorm"),lamps=count("lamp"),recyclers=count("recycler"),workshops=count("workshop");
-  const demand=hydro*.12+filters*.11+recyclers*.2+workshops*.08+lamps*.005+state.population*.008;
-  state.resources.power=Math.max(0,Math.min(state.caps.power,state.resources.power+solar+gen-demand));
-  const powered=state.resources.power>1,wet=state.resources.water>1;
-  let waterGain=powered?filters*(storm?.5:.34):0;
-  state.resources.water=Math.max(0,Math.min(state.caps.water,state.resources.water+waterGain-hydro*.10-gardens*.025-state.population*.018));
-  let foodGain=gardens*(storm?.035:.075)+(powered&&wet?hydro*.28:0)+kitchens*.035;
-  state.resources.food=Math.max(0,Math.min(state.caps.food,state.resources.food+foodGain-state.population*.026));
+  const allObjects=Object.values(state.maps).flatMap(map=>map.objects);
+  const poweredCount=type=>allObjects.filter(o=>o.type===type&&ps.powered.has(o.uid)).length;
+  const poweredFilters=poweredCount("water_filter"),poweredHydro=poweredCount("hydro"),poweredKitchens=poweredCount("kitchen"),poweredRecyclers=poweredCount("recycler"),poweredWorkshops=poweredCount("workshop");
+  state.resources.power=ps.free;state.caps.power=ps.production;
+  const wet=state.resources.water>1;
+  const waterGain=poweredFilters*(storm?.58:.46);
+  state.resources.water=Math.max(0,Math.min(state.caps.water,state.resources.water+waterGain-poweredHydro*.12-gardens*.04-state.population*.012));
+  const foodGain=(wet?gardens*(storm?.045:.11):0)+(wet?poweredHydro*.32:0)+poweredKitchens*.035;
+  state.resources.food=Math.max(0,Math.min(state.caps.food,state.resources.food+foodGain-state.population*.012));
   state.resources.scrap=Math.max(0,Math.min(state.caps.scrap,state.resources.scrap+.035+count("shed")*.008));
-  if(powered&&recyclers&&hasRecyclerLink()&&state.resources.scrap>.1){
-    const rate=recyclers*(.075+workshops*.018);state.resources.scrap-=rate;state.resources.parts=Math.min(state.caps.parts,state.resources.parts+rate*.72);
+  if(poweredRecyclers&&hasRecyclerLink()&&state.resources.scrap>.1){
+    const rate=poweredRecyclers*(.075+poweredWorkshops*.018);state.resources.scrap-=rate;state.resources.parts=Math.min(state.caps.parts,state.resources.parts+rate*.72);
   }
   let moraleDelta=(dorms*.015+kitchens*.012+lamps*.002)-.01;
-  if(state.resources.food<10||state.resources.water<10||state.resources.power<5)moraleDelta-=.08;
+  if(state.resources.food<6||state.resources.water<4||ps.requested>ps.production)moraleDelta-=.08;
   if(state.day%3===0&&h>=19&&h<23)moraleDelta+=.05;
   state.resources.morale=Math.max(0,Math.min(100,state.resources.morale+moraleDelta));
-  for(const map of Object.values(state.maps))for(const o of map.objects)if(o.type==="garden"||o.type==="hydro"){o.growth=Math.min(6,(o.growth||0)+(o.type==="hydro"?.035:.018)*(storm&&o.type==="garden"?.45:1));}
+  for(const map of Object.values(state.maps))for(const o of map.objects)if(o.type==="garden"||o.type==="hydro"){
+    const active=wet&&(o.type==="garden"||ps.powered.has(o.uid));
+    if(active)o.growth=Math.min(6,(o.growth||0)+(o.type==="hydro"?.035:.018)*(storm&&o.type==="garden"?.45:1));
+  }
   state.minutes+=5;if(state.minutes>=1440){state.minutes-=1440;state.day++;state.resources.scrap=Math.min(state.caps.scrap,state.resources.scrap+8);toast("Neuer Tag: +8 Schrott von der Oberfläche");}
   checkProgression();recalcCaps();updateUI();if(scene)scene.refreshDynamic();
 }
 function checkProgression(){
-  if(!state.unlocked.level2&&count("hydro")&&count("water_filter")&&count("dorm")&&state.resources.food>=80){
-    state.unlocked.level2=true;state.colonists.push({id:"tesa",name:"Tesa",level:"level2",x:11,y:7,tint:0xffd8ef});if(sounds)sounds.play("unlock");toast("Ebene −2 freigeschaltet!");flashUnlock();
+  const reward=(scrap,parts)=>{state.resources.scrap=Math.min(state.caps.scrap,state.resources.scrap+scrap);state.resources.parts=Math.min(state.caps.parts,state.resources.parts+parts)};
+  if((state.stage||0)===0&&count("solar")&&count("water_filter")&&state.resources.water>=10){
+    state.stage=1;reward(8,2);if(sounds)sounds.play("unlock");toast("Garten freigeschaltet · +8 Schrott");flashUnlock();
   }
-  if(state.unlocked.level2&&!state.completed&&count("recycler")&&count("generator")&&count("workshop")&&hasRecyclerLink()&&state.resources.parts>=50){
+  if(state.stage===1&&count("garden")&&state.resources.food>=20){
+    state.stage=2;state.unlocked.level1=true;reward(14,4);if(sounds)sounds.play("unlock");toast("Ebene −1 freigeschaltet · +14 Schrott");flashUnlock();
+  }
+  if(state.stage===2&&count("hydro")&&count("solar")>=2&&state.resources.food>=28){
+    state.stage=3;reward(24,8);if(sounds)sounds.play("unlock");toast("Wohnräume freigeschaltet · +24 Schrott");flashUnlock();
+  }
+  if(state.stage===3&&count("dorm")&&count("kitchen")&&state.resources.food>=35){
+    state.stage=4;state.unlocked.level2=true;state.population=3;
+    state.colonists.push({id:"juno",name:"Juno",level:"level1",x:11,y:7,tint:0xffe0c0});
+    reward(30,10);if(sounds)sounds.play("unlock");toast("Ebene −2 freigeschaltet!");flashUnlock();
+  }
+  if(state.stage>=4&&!state.completed&&count("recycler")&&count("generator")&&count("workshop")&&hasRecyclerLink()&&state.resources.parts>=50){
     state.completed=true;if(sounds)sounds.play("unlock");toast("Vertical Slice abgeschlossen!");flashUnlock();
   }
 }
@@ -359,14 +426,14 @@ function fallbackPath(grid,sx,sy,tx,ty){
   while(q.length){const [x,y]=q.shift();if(x===tx&&y===ty){const p=[];let k=x+","+y;while(k){const [a,b]=k.split(",").map(Number);p.push({x:a,y:b});k=prev.get(k)}return p.reverse()}for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1]]){const nx=x+dx,ny=y+dy,key=nx+","+ny;if(nx>=0&&ny>=0&&nx<MAP_W&&ny<MAP_H&&grid[ny][nx]===0&&!prev.has(key)){prev.set(key,x+","+y);q.push([nx,ny])}}}return null;
 }
 class MainScene extends Phaser.Scene{
-  constructor(){super("MainScene");this.level=state.selectedLevel;this.tileSprites=[];this.objectSprites=[];this.cropSprites=[];this.people=[];this.cursor=null;this.lastAI=0;}
+  constructor(){super("MainScene");this.level=state.selectedLevel;this.tileSprites=[];this.objectSprites=[];this.cropSprites=[];this.people=[];this.cursor=null;this.lastAI=0;this.panPointerId=null;this.panLast=null;this.pinchDistance=0;this.userAdjustedCamera=false;this.minZoom=.35;this.maxZoom=3;}
   preload(){
     this.load.on("loaderror",file=>{
       const el=$("#depError");
       el.classList.add("show");
       el.innerHTML=`<b>Asset konnte nicht geladen werden:</b><br><code>${file.src||file.key}</code><br><br>Prüfe, ob der Ordner <code>assets/</code> neben <code>index.html</code> liegt und alle vier Dateien enthält.`;
     });
-    this.load.spritesheet("bunkerTerrain",`assets/bunker_terrain_64.png?v=${EXTERNAL_ASSET_VERSION}`,{frameWidth:64,frameHeight:64});
+    this.load.spritesheet("bunkerTerrain",`assets/bunker_terrain_clean_64.png?v=${EXTERNAL_ASSET_VERSION}`,{frameWidth:64,frameHeight:64});
     this.load.atlas("bunkerObjects",`assets/bunker_objects_64.png?v=${EXTERNAL_ASSET_VERSION}`,`assets/bunker_objects_64.json?v=${EXTERNAL_ASSET_VERSION}`);
     this.load.spritesheet("walk",ASSETS.charWalk,{frameWidth:32,frameHeight:32});
     this.load.spritesheet("idle",ASSETS.charIdle,{frameWidth:32,frameHeight:32});
@@ -377,8 +444,14 @@ class MainScene extends Phaser.Scene{
   create(){
     scene=this;this.cameras.main.setBackgroundColor("#0a0e09");this.input.setDefaultCursor("pointer");
     this.makeAnimations();this.cursor=this.add.rectangle(16,16,32,32,0xa7cb68,.24).setStrokeStyle(2,0xdff0aa,.9).setDepth(1000).setVisible(false);
-    this.input.on("pointermove",p=>this.pointerMove(p));this.input.on("pointerout",()=>this.cursor.setVisible(false));this.input.on("pointerdown",p=>this.pointerDown(p));
-    this.switchLevel(state.selectedLevel);sounds.setAmbience(state.selectedLevel);
+    this.input.addPointer(2);
+    this.input.on("pointermove",p=>this.pointerMove(p));
+    this.input.on("pointerout",()=>{this.cursor.setVisible(false);this.endViewGesture()});
+    this.input.on("pointerdown",p=>this.pointerDown(p));
+    this.input.on("pointerup",()=>this.endViewGesture());
+    this.input.on("wheel",(pointer,objects,dx,dy)=>{if(viewMode)this.zoomAt(pointer.x,pointer.y,this.cameras.main.zoom*Math.exp(-dy*.0015),true)});
+    this.scale.on("resize",()=>this.handleResize());
+    this.switchLevel(state.selectedLevel);this.resetCamera();this.setViewMode(viewMode);sounds.setAmbience(state.selectedLevel);
   }
   makeAnimations(){
     const dirs=["down","left","right","up"];dirs.forEach((dir,row)=>{
@@ -387,13 +460,68 @@ class MainScene extends Phaser.Scene{
       this.anims.create({key:"shovel_"+dir,frames:this.anims.generateFrameNumbers("shovel",{start:row*3,end:row*3+2}),frameRate:6,repeat:1});
     });
   }
-  clearScene(){[...this.tileSprites,...this.objectSprites,...this.cropSprites,...this.people].forEach(x=>x.destroy());this.tileSprites=[];this.objectSprites=[];this.cropSprites=[];this.people=[];}
+  clearScene(){
+    this.time.removeAllEvents();this.tweens.killAll();
+    for(const sp of this.people){if(sp?.active){sp.anims?.stop();sp.destroy()}}
+    [...this.tileSprites,...this.objectSprites,...this.cropSprites].forEach(x=>{if(x?.active!==false)x.destroy()});
+    this.tileSprites=[];this.objectSprites=[];this.cropSprites=[];this.people=[];this.endViewGesture();
+  }
   switchLevel(level){this.level=level;this.clearScene();this.drawMap();this.spawnPeople();this.updateCursor();this.cameras.main.fadeIn(180,22,28,19);}
+  setViewMode(on){
+    this.cursor?.setVisible(false);this.endViewGesture();
+    this.input.setDefaultCursor(on?"grab":"pointer");
+  }
+  handleResize(){
+    if(!this.userAdjustedCamera)this.resetCamera();
+    else{this.minZoom=Math.max(.35,Math.min(this.scale.gameSize.width/(MAP_W*TILE),this.scale.gameSize.height/(MAP_H*TILE))*.75);this.cameras.main.setZoom(Phaser.Math.Clamp(this.cameras.main.zoom,this.minZoom,this.maxZoom));this.stabilizeCamera()}
+  }
+  resetCamera(){
+    const cam=this.cameras.main,w=Math.max(1,this.scale.gameSize.width),h=Math.max(1,this.scale.gameSize.height),worldW=MAP_W*TILE,worldH=MAP_H*TILE;
+    const fit=Math.min(w/worldW,h/worldH),cover=Math.max(w/worldW,h/worldH),coarse=window.matchMedia("(pointer: coarse)").matches||window.innerWidth<=700||(window.innerHeight<=520&&window.innerWidth<=1100);
+    this.minZoom=Math.max(.35,fit*.75);this.maxZoom=Math.max(2.5,cover*2);
+    const targetZoom=coarse?Math.ceil(cover*TILE)/TILE:Math.max(this.minZoom,Math.round(fit*TILE)/TILE);
+    cam.setBounds(0,0,worldW,worldH).setZoom(targetZoom).centerOn(worldW/2,worldH/2);this.stabilizeCamera();
+    this.userAdjustedCamera=false;
+  }
+  downPointers(){return this.input.manager.pointers.filter(p=>p.isDown)}
+  beginViewGesture(p){
+    this.cursor.setVisible(false);const down=this.downPointers();
+    if(down.length>=2){this.pinchDistance=Phaser.Math.Distance.Between(down[0].x,down[0].y,down[1].x,down[1].y);this.panPointerId=null;this.panLast=null}
+    else{this.panPointerId=p.id;this.panLast={x:p.x,y:p.y};this.input.setDefaultCursor("grabbing")}
+  }
+  endViewGesture(){
+    const down=this.downPointers();
+    if(down.length<2)this.pinchDistance=0;
+    if(!down.length){this.panPointerId=null;this.panLast=null;this.stabilizeCamera();this.input.setDefaultCursor(viewMode?"grab":"pointer")}
+  }
+  moveCamera(p){
+    const down=this.downPointers(),cam=this.cameras.main;
+    if(down.length>=2){
+      const a=down[0],b=down[1],distance=Math.max(1,Phaser.Math.Distance.Between(a.x,a.y,b.x,b.y)),mx=(a.x+b.x)/2,my=(a.y+b.y)/2;
+      if(this.pinchDistance){this.zoomAt(mx,my,cam.zoom*(distance/this.pinchDistance))}
+      this.pinchDistance=distance;this.panPointerId=null;this.panLast=null;return;
+    }
+    this.pinchDistance=0;
+    if(p.isDown){
+      if(this.panPointerId!==p.id||!this.panLast){this.panPointerId=p.id;this.panLast={x:p.x,y:p.y};return}
+      cam.scrollX-=(p.x-this.panLast.x)/cam.zoom;cam.scrollY-=(p.y-this.panLast.y)/cam.zoom;
+      this.panLast={x:p.x,y:p.y};this.userAdjustedCamera=true;
+    }
+  }
+  zoomAt(screenX,screenY,targetZoom,snap=false){
+    const cam=this.cameras.main,before=cam.getWorldPoint(screenX,screenY),zoom=Phaser.Math.Clamp(targetZoom,this.minZoom,this.maxZoom);
+    cam.setZoom(zoom);const after=cam.getWorldPoint(screenX,screenY);cam.scrollX+=before.x-after.x;cam.scrollY+=before.y-after.y;if(snap)this.stabilizeCamera();this.userAdjustedCamera=true;
+  }
+  stabilizeCamera(){
+    const cam=this.cameras.main;
+    const zoom=Phaser.Math.Clamp(Math.round(cam.zoom*TILE)/TILE,this.minZoom,this.maxZoom);
+    cam.setZoom(zoom);cam.scrollX=Math.round(cam.scrollX*zoom)/zoom;cam.scrollY=Math.round(cam.scrollY*zoom)/zoom;
+  }
   terrainPlacement(map,x,y,value){
     const hash=(x*31+y*17)%5;
     if(value===TERRAIN.GRASS)return {frame:[0,0,1,2,3][hash],rotation:0};
     if(value===TERRAIN.DIRT)return {frame:9+(hash%3),rotation:0};
-    if(value===TERRAIN.ROCK)return {frame:26+((x+y)%2),rotation:0};
+    if(value===TERRAIN.ROCK)return {frame:24+((x+y)%2),rotation:0};
     if(value===TERRAIN.FLOOR)return {frame:30,rotation:0};
     if(value===TERRAIN.FLOOR_ALT)return {frame:31,rotation:0};
     if(value===TERRAIN.HAZARD)return {frame:33,rotation:0};
@@ -421,7 +549,7 @@ class MainScene extends Phaser.Scene{
     for(let y=0;y<MAP_H;y++)for(let x=0;x<MAP_W;x++){
       const placement=this.terrainPlacement(map,x,y,map.terrain[y*MAP_W+x]);
       const tile=this.add.image(x*TILE+TILE/2,y*TILE+TILE/2,"bunkerTerrain",placement.frame)
-        .setDisplaySize(TILE,TILE).setRotation(placement.rotation).setDepth(0);
+        .setDisplaySize(TILE+.8,TILE+.8).setRotation(placement.rotation).setDepth(0);
       this.tileSprites.push(tile);
     }
     if(this.level==="surface"){
@@ -459,6 +587,10 @@ class MainScene extends Phaser.Scene{
       const warning=this.add.text(o.x*TILE+o.w*TILE-9,o.y*TILE+7,"!",{fontFamily:"monospace",fontSize:"14px",color:"#ffcf6c",backgroundColor:"#592f29"}).setOrigin(.5).setDepth(80);
       this.objectSprites.push(warning);
     }
+    if(POWER_USE[o.type]&&!isPowered(o)){
+      const warning=this.add.text(o.x*TILE+o.w*TILE-10,o.y*TILE+8,"⚡",{fontFamily:"monospace",fontSize:"11px",color:"#ffe18a",backgroundColor:"#5b302b",padding:{x:3,y:2}}).setOrigin(.5).setDepth(81);
+      this.objectSprites.push(warning);
+    }
   }
   addCrops(o){
     const stages=o.type==="garden"?SOIL_GROWTH:WATER_GROWTH;
@@ -476,9 +608,10 @@ class MainScene extends Phaser.Scene{
   }
   refreshAll(){this.clearScene();this.drawMap();this.spawnPeople();this.updateCursor()}
   refreshDynamic(){if(this.cropSprites.length){this.cropSprites.forEach(x=>x.destroy());this.cropSprites=[];for(const o of state.maps[this.level].objects)if(o.type==="garden"||o.type==="hydro")this.addCrops(o)}}
-  pointerMove(p){const x=Math.floor(p.worldX/TILE),y=Math.floor(p.worldY/TILE);if(x<0||y<0||x>=MAP_W||y>=MAP_H){this.cursor.setVisible(false);return}this.cursor.setPosition(x*TILE+16,y*TILE+16).setVisible(true);this.updateCursor(x,y)}
-  updateCursor(x=null,y=null){if(!this.cursor)return;if(x===null){x=Math.floor(this.cursor.x/TILE);y=Math.floor(this.cursor.y/TILE)}const tool=state.selectedTool;if(!tool){this.cursor.setOrigin(.5).setSize(32,32).setPosition(x*TILE+16,y*TILE+16).setFillStyle(0xa7cb68,.18).setStrokeStyle(2,0xdff0aa,.8);return}const d=DEF[tool];this.cursor.setOrigin(0).setSize(d.size[0]*TILE,d.size[1]*TILE);this.cursor.setPosition(x*TILE,y*TILE);const ok=this.canPlace(tool,x,y)&&canAfford(d.cost);this.cursor.setFillStyle(ok?0x8fbd57:0xd75d55,.10).setStrokeStyle(2,ok?0xdff0aa:0xffb3ad,.95)}
+  pointerMove(p){if(viewMode){this.moveCamera(p);return}const x=Math.floor(p.worldX/TILE),y=Math.floor(p.worldY/TILE);if(x<0||y<0||x>=MAP_W||y>=MAP_H){this.cursor.setVisible(false);return}this.cursor.setPosition(x*TILE+16,y*TILE+16).setVisible(true);this.updateCursor(x,y)}
+  updateCursor(x=null,y=null){if(!this.cursor||viewMode){this.cursor?.setVisible(false);return}if(x===null){x=Math.floor(this.cursor.x/TILE);y=Math.floor(this.cursor.y/TILE)}const tool=state.selectedTool;if(!tool){this.cursor.setOrigin(.5).setSize(32,32).setPosition(x*TILE+16,y*TILE+16).setFillStyle(0xa7cb68,.18).setStrokeStyle(2,0xdff0aa,.8);return}const d=DEF[tool];this.cursor.setOrigin(0).setSize(d.size[0]*TILE,d.size[1]*TILE);this.cursor.setPosition(x*TILE,y*TILE);const ok=this.canPlace(tool,x,y)&&canAfford(d.cost);this.cursor.setFillStyle(ok?0x8fbd57:0xd75d55,.10).setStrokeStyle(2,ok?0xdff0aa:0xffb3ad,.95)}
   pointerDown(p){
+    if(viewMode){this.beginViewGesture(p);return}
     const x=Math.floor(p.worldX/TILE),y=Math.floor(p.worldY/TILE);if(x<0||y<0||x>=MAP_W||y>=MAP_H)return;
     if(!state.selectedTool){this.inspect(x,y);return}
     this.place(state.selectedTool,x,y);
@@ -532,21 +665,36 @@ class MainScene extends Phaser.Scene{
   taskTargets(){const map=state.maps[this.level],arr=[];for(const o of map.objects)if(["garden","hydro","water_filter","kitchen","recycler","generator","workshop","storage"].includes(o.type)){for(const [dx,dy] of [[-1,0],[o.w,0],[0,-1],[0,o.h]]){const tx=o.x+(dx===0?Math.floor(o.w/2):dx),ty=o.y+(dy===0?Math.floor(o.h/2):dy);if(tx>=0&&ty>=0&&tx<MAP_W&&ty<MAP_H)arr.push({x:tx,y:ty,type:o.type})}}return arr}
   chooseTask(sp){
     if(sp.busy)return;const grid=this.walkGrid(),targets=this.taskTargets().filter(t=>grid[t.y]?.[t.x]===0);if(!targets.length)return;const t=Phaser.Utils.Array.GetRandom(targets),sx=Math.round((sp.x-16)/TILE),sy=Math.round((sp.y-17)/TILE);
-    const done=path=>{if(!path||path.length<2)return;this.followPath(sp,path,t.type)};
+    const done=path=>{if(!sp.active||sp.person.level!==this.level||!path||path.length<2)return;this.followPath(sp,path,t.type)};
     if(typeof EasyStar!=="undefined"){const es=new EasyStar.js();es.setGrid(grid);es.setAcceptableTiles([0]);es.findPath(sx,sy,t.x,t.y,done);es.calculate()}else done(fallbackPath(grid,sx,sy,t.x,t.y));
   }
-  followPath(sp,path,taskType){sp.busy=true;const steps=path.slice(1);const next=()=>{if(!steps.length){this.work(sp,taskType);return}const p=steps.shift(),dx=p.x*TILE+16-sp.x,dy=p.y*TILE+17-sp.y;let dir=Math.abs(dx)>Math.abs(dy)?(dx<0?"left":"right"):(dy<0?"up":"down");sp.play("walk_"+dir,true);this.tweens.add({targets:sp,x:p.x*TILE+16,y:p.y*TILE+17,duration:210,onComplete:next})};next()}
-  work(sp,type){const dir="down",anim=["garden","hydro"].includes(type)?"water_"+dir:["storage"].includes(type)?"walk_"+dir:"shovel_"+dir;sp.play(anim,true);this.time.delayedCall(900,()=>{sp.stop();sp.setTexture("idle",0);sp.busy=false})}
+  followPath(sp,path,taskType){sp.busy=true;const steps=path.slice(1);const next=()=>{if(!sp.active||sp.person.level!==this.level)return;if(!steps.length){this.work(sp,taskType);return}const p=steps.shift(),dx=p.x*TILE+16-sp.x,dy=p.y*TILE+17-sp.y;let dir=Math.abs(dx)>Math.abs(dy)?(dx<0?"left":"right"):(dy<0?"up":"down");sp.play("walk_"+dir,true);this.tweens.add({targets:sp,x:p.x*TILE+16,y:p.y*TILE+17,duration:210,onComplete:next})};next()}
+  work(sp,type){if(!sp.active)return;const dir="down",anim=["garden","hydro"].includes(type)?"water_"+dir:["storage"].includes(type)?"walk_"+dir:"shovel_"+dir;sp.play(anim,true);this.time.delayedCall(900,()=>{if(!sp.active)return;sp.stop();sp.setTexture("idle",0);sp.busy=false})}
   update(time){if(!state.paused&&time-this.lastAI>2200){this.lastAI=time;for(const p of this.people)if(Math.random()<.72)this.chooseTask(p)}}
 }
 function boot(){
   sounds=new SoundManager();
-  const config={type:Phaser.AUTO,parent:"game",width:MAP_W*TILE,height:MAP_H*TILE,pixelArt:true,roundPixels:true,backgroundColor:"#0a0e09",scene:[MainScene],scale:{mode:Phaser.Scale.FIT,autoCenter:Phaser.Scale.CENTER_BOTH}};
+  const config={type:Phaser.CANVAS,parent:"game",width:MAP_W*TILE,height:MAP_H*TILE,pixelArt:true,roundPixels:true,backgroundColor:"#0a0e09",scene:[MainScene],scale:{mode:Phaser.Scale.RESIZE,autoCenter:Phaser.Scale.CENTER_BOTH}};
   game=new Phaser.Game(config);updateUI();sounds.setAmbience(state.selectedLevel);
   setInterval(()=>{simulate();save(false)},1000);
 }
 $("#pause").onclick=()=>{state.paused=!state.paused;updateUI();toast(state.paused?"Pausiert":"Simulation läuft")};
 $("#sound").onclick=()=>sounds&&sounds.toggle();
+$("#view").onclick=()=>setViewMode(!viewMode);
+function setTasksOpen(open){
+  const side=document.querySelector(".side");
+  side.classList.toggle("open",open);$("#tasks").setAttribute("aria-expanded",String(open));
+}
+$("#tasks").onclick=()=>setTasksOpen(!document.querySelector(".side").classList.contains("open"));
+$("#objectiveChip").onclick=()=>setTasksOpen(true);
+$("#sideClose").onclick=()=>setTasksOpen(false);
+$("#fullscreen").onclick=async()=>{
+  try{
+    if(!document.fullscreenElement){const el=document.documentElement;await (el.requestFullscreen?el.requestFullscreen():el.webkitRequestFullscreen?.())}
+    else await (document.exitFullscreen?document.exitFullscreen():document.webkitExitFullscreen?.());
+  }catch(e){toast("Vollbild ist in diesem Browser nicht verfügbar.")}
+};
+document.addEventListener("fullscreenchange",()=>{$("#fullscreen").classList.toggle("active",!!document.fullscreenElement);$("#fullscreen").title=document.fullscreenElement?"Vollbild verlassen":"Vollbild"});
 $("#save").onclick=()=>save(true);
 $("#reset").onclick=()=>{if(confirm("Gesamten Prototyp zurücksetzen?")){localStorage.removeItem(SAVE_KEY);location.reload()}};
 $("#help").onclick=()=>$("#helpModal").classList.add("open");
